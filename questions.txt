@@ -1,0 +1,55 @@
+1. How many wells have Biostratigraphy/Biostrat report? and list all as well for me.
+
+
+2. Give me the information of Middle Jurassic zonation of Biostrat report of well ''15/9-F-1''.
+
+
+3. Give me all the report of Petrophysical? and summary the petrophysical result of Well named ''15/9-F-1''
+-> page 9 of BIOSTRAT_REPORT_1.PDF (add image with bbox)
+
+4. For the End of well report, Summary the Hole record of Well named 15/9-F-12?
+
+
+5. I am looking Final Well Report, Can you show me the report of Well named ''15/9-F-4'' and list let me know how many BHA runs for this well?
+
+
+6. For Well Test report, Please give me the Main results of Test 1 of well name ''15/19-19A"
+
+
+<@917683107459641386> 
+# 1. How many wells have Biostratigraphy/Biostrat report?
+- Two wells have accompanying biostrat reports. These wells are named '15/9-F-1' and '15/9-F-10'.
+
+# 2. Summary the petrophysical result of Well named ''15/9-F-1''
+- {
+    "Summary 15/9- F-1": f"""Summary 15/9- F-1 
+TD of 15/9 -F-1 was 3 632 m MD RKB  (Smith Bank Fm.) .  
+ 
+The Hugin  Fm. seems to be missing, probably due to faulting.  The Volve stratigraphy  in general is 
+difficult to  recognize.    
+ Heather Fm. has a high net/gross ratio , N/G ~ 0.5.   
+From log responses t wo intervals might contain some residual oil:  
+3320.6 – 3322.5 m MD RKB  / 2991.5 –  2993.0 m TVD MSL,  
+3332.4 – 3334.0  m MD RKB / 3001.2 –  3002.5 m TVD MSL.       
+However no shows on cuttings are reported .  
+ Skagerak Fm. seems quite  hetero geneous  with rather poor properties , the properties  are however 
+slightly better in the lower part below 3450 m MD RKB.    
+ LWD log data is of good quality."""
+}
+
+# 3. Give me the information of Middle Jurassic zonation of Biostrat report of well ''15/9-F-1''.
+- See "Appendix 1. Middle Jurassic zonation" at page 10 of file "BIOSTRAT_REPORT_1.pdf" (Or show image of the report here)
+
+# 4. I am looking Final Well Report, Can you show me the report of Well named ''15/9-F-4'' and list let me know how many BHA runs for this well?
+- You can check the Final Well Report (FWR) for well '15/9-F-4' in the file "FWR_completion.pdf". This well has 18 BHA runs, including BHA NO 9, 11, 12, 15, 16, 17, 18, 19, 21, 22, 23, 24, 25, 26, 28, 29, 30, and 31.
+
+# 5. For Well Test report, Please give me the Main results of Test 1 of well name ''15/19-19A"
+The main objective to obtain water samples was achieved.
+Due to the lack of good rate history, the data is of limited use for analysis and the result may be
+interpreted in different ways.
+The average permeability from the core measurements in the perforated interval is approximately
+330 mD with a maximum of approximately 900 mD.
+The calculated permeability from the test is approximately 13 mD which does not correspond with
+the core measurements.
+The core data is considered most reliable with respect tp permeability estimation in this case.
+Rock mechanical properties were not obtained, due to the lack of minifiac data.

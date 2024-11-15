@@ -26,8 +26,8 @@ pip install -r requirements.txt
 ```
 Download `bge_model_ctranslate2` embedding model<br>
 Download `parsed` folder at https://drive.google.com/drive/folders/174I-pX1f7_mGG28Wwd9JPOgnOS5O16BA?usp=sharing<br>
-Download `tables` folder (extracted tables) from https://drive.google.com/drive/folders/12r0F_Ce25kecUSzp_HvjHjhrV6LbyYyx?usp=drive_link<br>
-Download `pictures` folder (extracted pictures) from https://drive.google.com/drive/folders/1EvTLNNrBvQr-_lIzZSRL8ayrevKTmtJK?usp=drive_link<br>
+Download `tables` folder (extracted tables) from https://drive.google.com/drive/folders/12r0F_Ce25kecUSzp_HvjHjhrV6LbyYyx?usp=sharing<br>
+Download `pictures` folder (extracted pictures) from https://drive.google.com/drive/folders/1EvTLNNrBvQr-_lIzZSRL8ayrevKTmtJK?usp=sharing<br>
 # Usage
 ```
 python chroma_service.py

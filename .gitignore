@@ -1,3 +1,8 @@
 venv
 pdf_parsing_service.py
 config.py
+bge_model_ctranslate2
+pictures
+tables
+text
+pdf

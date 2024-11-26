@@ -24,18 +24,39 @@ else:
     translator = ctranslate2.Encoder(model_save_path, device=device)
 
 
-def generate_embeddings(text):
+# def generate_embeddings(text):
+#     inputs = tokenizer(text, return_tensors="pt", padding=True, truncation=True)
+#     input_ids = inputs["input_ids"].tolist()[0]
+#     output = translator.forward_batch([input_ids])
+#     pooler_output = output.pooler_output
+#     if device == "cuda":
+#         embeddings = (
+#             torch.as_tensor(pooler_output, device=device).detach().cpu().tolist()[0]
+#         )
+#     else:
+#         pooler_output = np.array(pooler_output)
+#         embeddings = torch.as_tensor(pooler_output, device=device).detach().tolist()[0]
+#     return embeddings
+
+def generate_embeddings(text, device="cpu"):
     inputs = tokenizer(text, return_tensors="pt", padding=True, truncation=True)
     input_ids = inputs["input_ids"].tolist()[0]
-    output = translator.forward_batch([input_ids])
-    pooler_output = output.pooler_output
+    tokens = tokenizer.convert_ids_to_tokens(input_ids)
+
+    output = translator.forward_batch([tokens])
+
+    
+    last_hidden_state = output.last_hidden_state
+    last_hidden_state = np.array(last_hidden_state)
+    last_hidden_state = torch.as_tensor(last_hidden_state, device = device)[0]
+
+    last_hidden_state = torch.nn.functional.normalize(last_hidden_state, p=2, dim=1)
+
     if device == "cuda":
-        embeddings = (
-            torch.as_tensor(pooler_output, device=device).detach().cpu().tolist()[0]
-        )
+        embeddings = last_hidden_state.detach().cpu().tolist()[0]
     else:
-        pooler_output = np.array(pooler_output)
-        embeddings = torch.as_tensor(pooler_output, device=device).detach().tolist()[0]
+        embeddings = last_hidden_state.detach().tolist()[0]
+
     return embeddings
 
 

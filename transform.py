@@ -183,10 +183,10 @@ def handle_text_data(metadata):
     mapping = get_text_element_code_mapping(metadata)
     for group in metadata["groups"]:
         text = ''
-        page_set = set()
+        page_set = []
         for child in group["children"]:
             text += mapping[child["$ref"]]["content"] + '\n'
-            page_set.add(mapping[child["$ref"]]["page"])
+            page_set = (mapping[child["$ref"]]["page"])
             mapping.pop(child["$ref"])
         content.append({
             "page_num":page_set,
@@ -196,10 +196,13 @@ def handle_text_data(metadata):
     page_concatenation = concatenate_content_by_page(mapping)
     for key, val in page_concatenation.items():
         content.append({
-            "page_num":{key}, 
+            "page_num":key, 
             "text":val
         })
     result = [{
+        "report_type":metadata["report_type"],
+        "well_name":metadata["well_name"],
+        "extra":metadata["extra"],
         "name_file":metadata["origin"]["filename"],
         "type":"text",
         "content":con
@@ -267,7 +270,10 @@ def handle_table_data(metadata,pdf_path):
         # print("link to tablee ", data["link_to_table"])
         content.append(data)
     return [{
-        "name_file":name_file,
+        "report_type":metadata["report_type"],
+        "well_name":metadata["well_name"],
+        "extra":metadata["extra"],
+        "name_file":metadata["origin"]["filename"],
         "type":"table",
         "content":con
     } for con in content]
@@ -302,6 +308,9 @@ def handle_picture_data(metadata, pdf_path):
         content.append(data)
     # tqdm.write(f'description : {data["description"]}')
     return [{
+        "report_type":metadata["report_type"],
+        "well_name":metadata["well_name"],
+        "extra":metadata["extra"],
         "name_file": metadata["origin"]["filename"],
         "type": "pictures",
         "content": con

@@ -1,0 +1,978 @@
+[
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 1,
+        "text": "Gradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 1 av 49\nVolve\n15/9-F-1 15/9-F-1 A 15/9-F-1 B\nPetrophysical (static) well evaluation\nInterpreter: Torill Vee\nDate: February 2014\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 2,
+        "text": "Gradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 2 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "pdf/PETROPHYSICAL_REPORT_1.pdf",
+      "type": "table",
+      "content": {
+        "page_num": 2,
+        "link_to_table": "tables/PETROPHYSICAL_REPORT_1/tables_page_002.png",
+        "description": "The figure title is \"Petrophysical results\" and it appears on page 41 of the document. The figure discusses the petrophysical results for wells 15/9-F-1, 15/9-F-1 A, and 15/9-F-1 B, which are located in the Volve area."
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 3,
+        "text": "Gradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 3 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "pdf/PETROPHYSICAL_REPORT_1.pdf",
+      "type": "table",
+      "content": {
+        "page_num": 3,
+        "link_to_table": "tables/PETROPHYSICAL_REPORT_1/tables_page_003.png",
+        "description": "The table/figure title is not visible in the provided image, but it appears to be related to a well evaluation report, specifically for the 15/9-F-1 well, located in the Volve area. It seems to be a petrophysical (static) well evaluation report from February 2014, interpreted by Torill Vee."
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 4,
+        "text": "1 Introduction\n1.1 Introduction 15/9-F-1\nObjective of the 15/9-F-1 pilot was to test the Volve North upside prospect for HC accumulation and prove Minimum Economic Volume.\n1.2 Introduction 15/9-F-1 A\nThis wellbore was side-tracked from 15/9-F-1 due to the results from drilling 15/9-F-1 where Hugin Fm. appears to be missing, hence objective of F-1 was not fulfilled.\n1.3 Introduction 15/9-F-1 B\nThis well (planned and named as 15/9-F-1 A before drilling result from 15/9-F-1) was planned as a water injector in the Northwest segment, and placed in a down-flank location; to be supporting oil production from the Volve Northwest segment via existing producers up-flank in the Main Field.\n2 Summary\n2.1 Summary 15/9-F-1\nTD of 15/9-F-1 was 3632 m MD RKB (Smith Bank Fm.).\nThe Hugin Fm. seems to be missing, probably due to faulting. The Volve stratigraphy in general is difficult to recognize.\nHeather Fm. has a high net/gross ratio, N/G ~ 0.5.\nFrom log responses two intervals might contain some residual oil:\n3320.6 - 3322.5 m MD RKB / 2991.5 - 2993.0 m TVD MSL,\n3332.4 - 3334.0 m MD RKB / 3001.2 - 3002.5 m TVD MSL.\nHowever no shows on cuttings are reported.\nSkagerak Fm. seems quite heterogeneous with rather poor properties, the properties are however slightly better in the lower part below 3450 m MD RKB.\nLWD log data is of good quality.\nGradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 4 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 5,
+        "text": "2.2 Summary 15/9-F-1 A\n15/9-F-1 A was side-tracked from F-1 with KOP @ 2620 m MD RKB. TD @ 3682 m MD RKB (Smith Bank Fm.).\nTop Hugin was encountered 52 m shallower than expected due to depth conversion.\nHugin Fm. was water filled with Net/Gross = 0.692, which is lower than usual N/G for Hugin Fm.\nOne interval within Upper Hugin Fm. might contain some residual oil: 3441 - 3443 m MD RKB / 3011.5 - 3013 m TVD MSL.\nNo shows are however reported, and gas readings (mudlog) are not peaking. This apparent residuals might be a result of a combination of less vertical resolution of the resistivity logs (Induction) and problems - in general in this wellbore - with depth offsets on the logs.\nHugin Fm. seems quite strange with respect to facies development. Due to non-recognizable facies within Lower Hugin this has not yet been sub-divided.\nLower Hugin, Sleipner Fm. and Skagerak Fm. seem in general to have a high degree of cementation.\nFormation pressure points in Hugin indicate a separate pressure regime compared to Hugin Fm. in Volve main field and in the NW segment.\nLWD log data was severe affected by depth-tracking problems causing the logs to be off depth randomly thoughout the entire logging run, with the depth shifts varying - in both directions.\n2.3 Summary 15/9-F-1 B\n15/9-F-1 B was side-tracked from F-1 with KOP @ 2617 m MD RKB. TD @ 3465 m MD RKB (Sleipner Fm.).\nTop Hugin was encountered 20 m deeper than prognosed. Except of Hugin 1.6, most of Lower Hugin seems to be missing, probably due to faulting.\nHugin Fm. was oil filled with property averages as given in table in chapter 7.3. Properties in Upper and Middle Hugin are better compared to F-11 A, but slightly poorer in Lower Hugin.\nOil Down to Top Sleipner; ~ 3304 m MD RKB / 3044.5 m TVD MSL.\nFormation pressure points in Hugin confirm an oil gradient and indicate communication to Volve main field.\nLWD log data is of good quality.\nDue to very poor injectivity and limited fluid communication to the rest of the field even after additional perforations, F-1 B was permanently plugged and abandoned in February 2014.\nGradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 5 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 6,
+        "text": "3 Data Acquisition and QC\n3.1 15/9-F-1 Measurement While Drilling (MWD) / Logging While Drilling (LWD)\nThe MWD / LWD logging contractor for the entire wellbore was Baker Hughes.\nMud type in the 8 ½\" reservoir section of 15/9-F-1 was OBM, named Enviromul Yellow Spec 12. Name of base oil was EDC 95-11.\n(Mud filtrate is considered to consist mainly of base oil.)\nNo cores were taken.\nRe-log (LWD run # 3) in Bit depth interval 3349 - 3390 m MD RKB, was logged while backreaming 7 hours after being drilled.\nRealTime data:\nThe SoundTrak tool failed in run 3. Even if no error code was transmitted up from the tool, the SoundTrak data seemed quite unstable and random, with semblance values mostly below 0.5. Clear changes in lithology were not reflected in the SoundTrak data.\nThe TesTrak tool did also fail in run 3. At the first pressure point station, the tool extended, but immediately retracted and sent an error message proclaiming that the \"tool position was unsuitable\". It was re-oriented and re-tried but the same problem occurred, and now it began\nGradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 6 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "pdf/PETROPHYSICAL_REPORT_1.pdf",
+      "type": "table",
+      "content": {
+        "page_num": 6,
+        "link_to_table": "tables/PETROPHYSICAL_REPORT_1/tables_page_006.png",
+        "description": "The table in the image is titled \"15/9-F-1 MWD / LWD Run Summary.\" It presents a summary of the logging runs conducted during the 15/9-F-1 wellbore operation, including details on the logging service, pass direction, logging speed, bit depth interval, logging interval, and remarks for each run. The table provides an overview of the logging activities performed during the wellbore operation, highlighting the specific services used, the direction of the passes, the logging speeds, the bit depth intervals, and any notable remarks or observations made during the logging runs."
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 7,
+        "text": "transmitting empty data. This should not have happened in the event of a legitimate failed test, as the tool should still have gone through its ten-minutes test cycle before transmitting data (instead of retracting immediately and still transmitting afterwards). When proceeding to the second testing station, the result was however the same after two more attempts, despite re-orientating the toolface to the low side of the wellbore.\nMemory data:\nAll data was in memory: OnTrak, LithoTrak and MagTrak from memory in LWD run no. 3. SoundTrak and TesTrak data from memory in the relogging run, LWD run no. 4. The data quality is in general good.\nGradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 7 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 8,
+        "text": "3.2 15/9-F-1 A Logging While Drilling (LWD)\nThe LWD logging contractor for the entire wellbore was Baker Hughes.\nMud type in the 8 ½\" reservoir section was OBM.\nNo cores were taken.\n15/9-F-1 A LWD Run Summary\nContractor: Baker Hughes\nRe-log in Bit depth interval 3522 - 3544 m MD RKB, was logged while backreaming 17 - 19 hours after being drilled.\nMemory data:\nData gap observed in Bit depth interval: 3591 - 3599 m MD RKB in first memory data delivery.\nThis was explained by Baker to be due to loss of depth data from the rig within this timeframe. LWD gets block height from the rig, and it appears like this signal has been out of order for a while, and drilling has been continued without depth-tracking. Data will be in the memory, but without any depth reference.\nIn the final memory data delivery the gaps were filled (except for the ROP curve) by interpolation of time-depth data in the interval having lack of block height signal from the rig.\nDepth offsets on the logs were observed randomly throughout the whole logging run, and the depth shifts varied - in both directions. Baker explained this as probably being caused by poor depth-tracking in the interval, where the depth obviously had been sat back and forth during the drilling. LWD depth will always be connected to Drillers depth, and in this case also dependent on the quality of the block height signal we get from the rig. Baker could not do anything with the data to solve this. Only when it is obvious errors with the time-depth file, Baker will be able to correct this.\nGradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 8 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "pdf/PETROPHYSICAL_REPORT_1.pdf",
+      "type": "table",
+      "content": {
+        "page_num": 8,
+        "link_to_table": "tables/PETROPHYSICAL_REPORT_1/tables_page_008.png",
+        "description": "The table in the image is titled \"15/9-F-1 A LWD Run Summary\" and provides a summary of the LWD (Logging While Drilling) run conducted by Baker Hughes. The table includes information about the hole section, logging service, pass direction, logging speed, bit depth interval, and remarks.\n\nHere is a breakdown of the table's contents:\n\n* **Hole Section**: 8 1/2\n* **Logging Service**: OnTrak / LithoTrak / TesTrak / SoundTrak / CoPilot\n* **Pass Direction**: Down\n* **Logging Speed**: ROP (Rate of Penetration)\n* **Bit Depth Interval**: 2620-3682m MD RKB (Measured Depth, Relative to Kelly Bushing)\n* **Remarks**: Density image from LithoTrak. Fm. pressure points with TesTrak were taken while POOH after TD. Poor logging run: data gap and depth discrepancies on logs.\n\nThe table also includes a section for remarks, which provides additional information about the logging run, including the density image from LithoTrak and the fact that the TesTrak tool failed at the first pressure point station.\n\nOverall, the table provides a concise summary of the LWD run conducted by Baker Hughes, including the logging service used, the pass direction, logging speed, bit depth interval, and remarks."
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 9,
+        "text": "3.3 15/9-F-1 B Logging While Drilling (LWD)\nThe LWD logging contractor for the entire wellbore was Baker Hughes.\nMud type in the 8 ½\" reservoir section was OBM.\nNo cores were taken.\nRe-log in Bit depth interval 3236 - 3279 m MD RKB, was logged while backreaming 19 - 23 hours after being drilled.\nMemory data:\nAll data was in memory. The data quality is in general good.\n3.4 Electrical Wireline Logging\nNo electrical logging performed in open hole.\nGradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 9 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "pdf/PETROPHYSICAL_REPORT_1.pdf",
+      "type": "table",
+      "content": {
+        "page_num": 9,
+        "link_to_table": "tables/PETROPHYSICAL_REPORT_1/tables_page_009.png",
+        "description": "The title of the table is **15/9-F-1 B LWD Run Summary**. Its purpose is to summarize the logging run conducted by Baker Hughes for the entire wellbore, providing details such as logging speed, bit depth interval, logging interval, and remarks."
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 10,
+        "text": "4 Petrophysical Evaluation\nPetrophysical evaluation is performed according to the Volve petrophysical field model, described in report: \"Sleipner Øst and Volve Model 2006, Hugin and Skagerrak Formation, Petrophysical Evaluation\". November 2006. Author: Elin Solfjell, Karl Audun Lehne.\nThe petrophysical evaluation software used is Geolog, and the Geolog project is SLEIPNER_OST (at Stavanger server: FROST_SVG).\n4.1 Porosity\nTotal porosity, PHIF ( F φ ), is derived from the density log which is calibrated to overburden corrected core porosity for wells drilled with either OBM or WBM.\nThe Neutron log, NPHI, has been used to correct for varying mud filtrate invasion.\nB NPHI A D D F + - × + = ) ( φ φ φ\nwhere:\nfl ma b ma D ρ ρ ρ ρ φ - - = [fraction]\nρ$_{ma }$ is the matrix density [g/cm$^{3}$] ρ$_{b}$ is the measured bulk density (RHOB), [g/cm$^{3}$] ρfl is the pore fluid density [g/cm$^{3}$].\nA and B are regression coefficients.\nNPHI: Neutron log in limestone units [fraction]\n4.2 Shale volume\nTo determine VSH, the standard model VSH$_{GR }$from linear GR relationship is applied:\nVSH = min max min GR GR GR GR VSH$_{GR}$ - - =\nwhere:\nGR\n= gamma ray log reading [API]\nmin = GR reading in clean sand [API]\nGradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 10 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 11,
+        "text": "max GR = GR reading in shale [API]\nVSH is used quantitatively in deriving permeability, and quantitatively indirectly in Netsand cutoff.\nIn order to pick GR$_{min}$ and GR$_{max}$ in a more objective way, and to avoid over-estimating of VSH, GR is \"normalized\" against VSHDN (VSH from density / neutron) by cross plotting GR versus VSHDN. VSHDN is considered to be the most reliable shale indicator (except in intervals dominated by mica and heavy minerals). This shale indicator compares porosity derived from the Density log with porosity from the Neutron log. If the Neutron log reads higher porosity than the density, is this believed to be due to the hydrogen content of present clay minerals.\nVSHDN is derived from the response equation for the Neutron log:\nHICL HIFL PHIT NPHICS VCLDN ) * ( - =\n) (1 PHISH VCLDN VSHDN - =\nwhere:\nVCLDN = Dry shale volume from density / neutron logs [fraction]\nPHIT = Total log porosity [fraction]\nNPHICS = Neutron log corrected to sandstone matrix [fraction]\nHIFL = Hydrogen Index to fluid\nPHISH = Shale porosity [fraction]\nHICL = Hydrogen Index to clay\nIn table below are the general parameters used in Hugin Fm. for deriving VSHDN, given the assumption that Kaolinite is the dominant clay mineral:\nGradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 11 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "pdf/PETROPHYSICAL_REPORT_1.pdf",
+      "type": "table",
+      "content": {
+        "page_num": 11,
+        "link_to_table": "tables/PETROPHYSICAL_REPORT_1/tables_page_011.png",
+        "description": "The table is titled \"VSHDN Parameters\" and it provides the general parameters used in Hugin Fm. for deriving VSHDN, given the assumption that Kaolinite is the dominant clay mineral. The table lists the following parameters:\n\n* HICL (Hydrogen Index to clay)\n* PHISH (Shale porosity [fraction])\n* HIFL (Hydrogen Index to fluid)\n* NPHICS (Neutron log corrected to sandstone matrix [fraction])\n* PHIT (Total log porosity [fraction])\n* VCLDN (Dry shale volume from density / neutron logs [fraction])\n\nThese parameters are used to calculate the VSHDN, which is derived from the response equation for the Neutron log. The table suggests that VSHDN is considered to be the most reliable shale indicator, except in intervals dominated by mica and heavy minerals."
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 12,
+        "text": "a = Archie (tortuosity) factor\nR$_{w}$ = resistivity of formation water [Ohmm]\nF φ = Total porosity [fraction]\nm = cementation exponent\nR$_{ t}$ = true resistivity [Ohmm]\nn = saturation exponent\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 12,
+        "text": "4.3 Water saturation\nWater saturation is calculated using Archie equation, giving a total water saturation:\nn t m F w t R R a Sw 1       × × = φ\nwhere:\n4.4 Permeability\nThe horizontal log permeability, KLOGH, is derived from the following equation based on multivariable regression analysis between log porosity and shale volume (\"normalized\" against VSHDN) against overburden corrected core permeability:\nHeather Fm.:\n)) 9 8 (2 10 VSH PHIF KLOGH × - × + =\nHugin Fm.:\n)) 9 8 (2 10 VSH PHIF KLOGH × - × + =\nSleipner Fm.:\n)) 2 32 3 ( 10 VSH PHIF KLOGH × - × + - =\nSkagerak Fm.:\n)) 3 17.4 1.85 ( 10 VSH PHIF KLOGH × - × + - =\nSmith Bank Fm.:\n)) 3 17.4 1.85 ( 10 VSH PHIF KLOGH × - × + - =\nGradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 12 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 13,
+        "text": "4.5 Composite curves\nThe following composite curves are used for the petrophysical evaluation:\nGR\n: GRCFM*) from OnTrak\nRHOB\n: BDCFM from LithoTrak\nNPHI\n: NPCKLFM from LithoTrak\nPEF\n: DPEFM from LithoTrak\nRT\n: RPCEHM from OnTrak\nDRHO\n: DRHFM from LithoTrak\nCALI\n: CALCM from UltraSonic Caliper, part of LithoTrak\nNote in general that Baker considers the GRAFM curve as the best GR reading for large hole sizes > 17 ½\" hole. The reason is as follows:\nGRCFM is corrected for sensor type, collar size, carbonate content in mud, mud weight and hole size. GRAFM is only corrected for sensor type, collar size and carbonate content in mud. The hole size correction for GRCFM is performed by \"normalizing\" GRAFM to a standard which is: 6 ¾\" tool, 10\" borehole with 8 ppg mud. The large discrepancy between 26\" hole and \"the normalized standard\" is the reason for why the GRAFM is considered to be the best GR in large holes > 17 1/2\".\n*) Hence in 26\" section GRAFM is used as GR (applies only for 15/9-F-1).\n15/9-F-1: Note that in the 17 ½\" section a re-scaled NearBit GR (NBGRCFM) is spliced into GR for the ~ 9 last meters. NearBit GR has been re-scaled by -10 API in order to match GRCFM level.\nNote also in general that the final «average» density curve - RHOB (BDCFM) - from Baker is weighted with respect to which of the 16 sectors / bins that provide the best density measurement (smallest standoff).\nNPHI (NPCKLFM) is in limestone units, Caliper and salinity corrected and filtered.\nThe composite curves were created by Logtek from the memory data delivered by Baker Hughes.\nLogtek's RDEP (Resistivity Deep) curve = RPCELM, named RD in the OW Volve project. Logtek's RMED (Resistivity Medium) curve = RPCEHM, named RM in the OW Volve project.\nGradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 13 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 14,
+        "text": "4.6 Depth shift\nDepth shifting has been applied, typically in limited overlap intervals around kick off depths and hole sections in Overburden. These depth shifts and the splicing of the individual runs are reported in Logtek's info file for each well; WLC_COMPOSITE_1_INF_1.PDF which is stored in Petrobank. All depths are referenced to Driller's depth.\nLogtek's general \"philosophy\" with respect to depth shifting in the transition zone between a mother well and a kick off well is as follows: aim to keep the stop-coupled depths as shallow as possible, preferably at KOP. But sometimes it has to be sat deeper (a few meters deeper, preferably in a shale if possible) due to a) if overlapping curves are not on depth at KOP, or b) if the depth shifts have been so large, that the logs else will be too compressed. This \"philosophy\" also applies of course for depth shifting in overlap between hole sections.\n4.6.1 15/9-F-1 A Depth shift of logs:\nDue to the random and varying depth offsets in both directions throughout the logging run, it was very difficult to establish proper depth shifts. When comparing Statoil's and Logtek's depth shifts, there were large discrepancies.\nAgreement was made that the Statoil generated depth shifts were kept. Statoil decided however to keep Composite GR and ROP from Logtek wrt. depth shifting and merging.\nLogtek got the depth shift documentation from Statoil, and tried to recreate these. Logtek's recreated depth shifted logs and corresponding documentation are the version stored in Petrobank. Statoil's depth shifted composite logs are the one stored in the Volve project in OpenWorks (Bergen) and at the STAT_COMP set in Geolog. The discrepancy between the two versions is of no significance for any practical uses.\nStatoil's dynamic depth shifts are documented below, all depths are in m MD RKB:\nAll ORD and CCN curves from LithoTrak:\nMerge depth: 2622 m MD RKB.\nGeolog Set where LithoTrak depth shifts are stored: STAT_COMP_RHOB_SHIFT.\nAll resistivity curves from OnTrak:\nGradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 14 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 15,
+        "text": "Note that Logtek's resistivity curves are kept down to merge depth = 2618 m MD RKB. This merge depth is also kept. Below 2618 m MD RKB Statoil's depth shifted resistivity curves are used, generated with the depth shifts listed below:\nNote that in interval 3525 - 3595 m MD RKB the depth shifts are very difficult to establish.\nGeolog Set where OnTrak depth shifts are stored: STAT_COMP_RES_SHIFT.\nGradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 15 av 49\n……continued\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "pdf/PETROPHYSICAL_REPORT_1.pdf",
+      "type": "table",
+      "content": {
+        "page_num": 15,
+        "link_to_table": "tables/PETROPHYSICAL_REPORT_1/tables_page_015.png",
+        "description": "The title of the table/figure is \"Geolog Set where OnTrak depth shifts are stored: STAT_COMP_RES_SHIFT.\""
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "pdf/PETROPHYSICAL_REPORT_1.pdf",
+      "type": "table",
+      "content": {
+        "page_num": 15,
+        "link_to_table": "tables/PETROPHYSICAL_REPORT_1/tables_page_015.png",
+        "description": "The table in the image is titled \"Geolog Set where OnTrak depth shifts are stored: STAT_COMP_RES SHIFT.\" and it shows the depth shifts used for the resistivity curves below 2618 m MD RKB Statoil's depth shifted resistivity curves are used, generated with the depth shifts listed below."
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 16,
+        "text": "Both sonic curves from SoundTrak, DT (AC) and DTS (ACS):\nGeolog Set where SoundTrak depth shifts are stored: STAT_COMP_DT_SHIFT.\nGradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 16 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "pdf/PETROPHYSICAL_REPORT_1.pdf",
+      "type": "table",
+      "content": {
+        "page_num": 16,
+        "link_to_table": "tables/PETROPHYSICAL_REPORT_1/tables_page_016.png",
+        "description": "The title of the table is \"Both sonic curves from SoundTrak, DT (AC) and DTS (ACS):\"."
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 17,
+        "text": "4.7 Evaluation parameters\nThe following evaluation parameters are used for calculation of porosity, shale volume and water saturation:\n15/9-F-1 A Evaluation parameters\nR$_{w }$= 0.07 ohmm @ 20 $^{o}$C.\nTemperature gradient = 2.6$^{ o}$C / 100 m.\nReservoir temp.: 111$^{ o}$C @ 2800 m TVD MSL.\nGradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 17 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "pdf/PETROPHYSICAL_REPORT_1.pdf",
+      "type": "table",
+      "content": {
+        "page_num": 17,
+        "link_to_table": "tables/PETROPHYSICAL_REPORT_1/tables_page_017.png",
+        "description": "The table title is **15/9-F-1 Evaluation parameters**. This table presents the evaluation parameters employed in calculating porosity, shale volume, and water saturation. The table features columns for parameter names, formation names, and their corresponding values."
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "pdf/PETROPHYSICAL_REPORT_1.pdf",
+      "type": "table",
+      "content": {
+        "page_num": 17,
+        "link_to_table": "tables/PETROPHYSICAL_REPORT_1/tables_page_017.png",
+        "description": "The title of the table is \"15/9-F-1 A Evaluation parameters\". The table provides a list of evaluation parameters used for calculating porosity, shale volume, and water saturation."
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 18,
+        "text": "*)\n0.0083) ( - KLOGH\n15/9-F-1 B Evaluation parameters\n1.865 × = m\nR$_{w }$= 0.07 ohmm @ 20 $^{o}$C.\nTemperature gradient = 2.6$^{ o}$C / 100 m.\nReservoir temp.: 111$^{ o}$C @ 2800 m TVD MSL.\n4.8 Flag curves\nNetsand flag:\nCutoffs on PHIF and VSH are used to determine Netsand; SAND_FLAG = 1. Hugin Fm.: SAND_FLAG = 1 when PHIF > 0.10 and VSH < 0.50.\nThese cut offs correspond to a overburden corrected core permeability of 0.5 mD, and are also applied for the other formations, except Skagerak Fm. where a VSH cut off < 0.6 is applied.\nIn addition some manual editing might have been performed on the SAND_FLAG curve.\nCarbonate volume, Carbonate flag:\n15/9-F-1, 15/9-F-1 A:\nThe overall trend in these two wellbores is that from Heather Fm., the formations seem quite cemented. Due to this, a varying carbonate volume curve, VCARB, has been made instead of a carbonate flag curve. This carbonate volume curve has been calculated from an empirical relationship:\n( ) VSH PHIF VSH PHIF VCARB - - ×       × + - = 1 0.2 ) 0.3 ( 0.2\nNote that the volume carbonate is just meant to be used visually / qualitatively, and not for any quantitative purposes .\nGradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 18 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "pdf/PETROPHYSICAL_REPORT_1.pdf",
+      "type": "table",
+      "content": {
+        "page_num": 18,
+        "link_to_table": "tables/PETROPHYSICAL_REPORT_1/tables_page_018.png",
+        "description": "The title of the table in this image is **15/9-F-1 B Evaluation parameters**. This table presents a comprehensive list of evaluation parameters used for calculating porosity, shale volume, and water saturation. The parameters include:\n\n*   **pma**: 2.66\n*   **pfi**: 1\n*   **A**: 0\n*   **B**: 0\n*   **GRmin**: 5\n*   **GRmax**: 130\n*   **a**: 1\n*   **m**: 2\n*   **n**: 2\n*   **Rw**: 0.07 ohmm @ 20°C\n*   **Temperature gradient**: 2.6°C/100 m\n*   **Reservoir temp.**: 111°C @ 2800 m TVD MSL\n\nThese parameters are essential for understanding the properties of the reservoir and making informed decisions about its development."
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 19,
+        "text": "15/9-F-1 B:\nEven if this well has more \"normal\" Hugin facies developed, a VCARB curve is also generated here. In addition a carbonate flag curve, CARB_FLAG, has been determined manually by visual inspection of the logs. Whenever CARB_FLAG = 1 is SAND_FLAG = 0.\nCoal flag:\nNo coal layers were observed in the wells.\n15/9-F-1: 3 intervals with enhanced organic-rich content were observed in Draupne Fm.\n15/9-F-1 A: 2 intervals with enhanced organic-rich content were observed in Draupne Fm.\nGradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 19 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 20,
+        "text": "5 Evaluation of Formation Pressure Data\nBaker's TesTrak Formation Pressure While Drilling tool was run in the 8 ½\" section of 15/9-F-1, 15/9-F-1 A and 15/9-F-1 B.\nIn all 3 wells the formation pressures were taken after reached TD while POOH.\n5.1 General remarks about Baker's TesTrak test type\nIn general the test type chosen will have no influence on the acquired pressures - there might however be slight differences in mobility estimates from the second and third drawdown.\nIf \"tight supercharged\" test in a Darcy sand is chosen, one will still get the same pressure as a \"high mobility\" test. As seen from the table below all test types are volume controlled for the first drawdown (DD) anyway - it is only the second and third DD that are different. (The only difference between High and Low Mobility is the third drawdown).\nThe \"Unconsolidated Sand\" test includes an initialization sequence which might be beneficial to use for the first test. It is also the safest test to run if experiencing problems with the testing. The initialization sequence does however take about 1 min extra time, so if doing a large number of tests one would save some rig-time by doing one of the other types. Under normal conditions any of the tests could be chosen and would give good results.\nTest time will be dictated by the formation mobility, independent of the test type (except the 1 extra minute of the \"Unconsolidated Sand\") - the \"smart test\" downhole logic will determine when it has 3 stable formation pressures and automatically finish the test. If 3 pressures are not obtained within the specified 10 minutes, the test will abort and the recorded pressures will be transmitted to surface.\nTo sum up:\nPicking the most permeable zones for testing and having proper depth control is far more important than worrying about which test type to choose.\nGradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 20 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "pdf/PETROPHYSICAL_REPORT_1.pdf",
+      "type": "table",
+      "content": {
+        "page_num": 20,
+        "link_to_table": "tables/PETROPHYSICAL_REPORT_1/tables_page_020.png",
+        "description": "The title of the table is \"Test Type\" and it appears to be discussing the different types of tests that can be performed on a well, including High Mobility, Low Mobility, Tight Supercharged, and Unconsolidated Sand. The table provides information on the first drawdown (DD), second DD, and third DD for each test type, as well as the volume and initialization control for each test."
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 21,
+        "text": "5.2 General remarks about temperature measured by Baker's TesTrak\nThe TesTrak temperature is the temperature on the quartzdyne pressure sensor, which will require exact temperature correction. This temperature measurement is therefore strongly affected by the temperature of the drilling fluid (and also by annulus temperature and steel temperature), but minor affected by the volume of formation liquid which is drawn in (30 cc).\nThe temperature of the drilling fluid will also change when circulating: downhole it warms up by the formation and cools down when coming up at the rig, hence will probably be somewhat lower than absolute formation temperature. If extensive pumping it will therefore also be difficult to see relative temperature trends from TesTrak measurements.\nTo sum up:\nTesTrak temperature measurements cannot be used for absolute formation temperature, and most likely cannot be trusted for looking for relative temperature trends either.\nGradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 21 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 22,
+        "text": "5.3 Evaluation of Formation Pressure Data 15/9-F-1\n4 of 6 tests were successful and of good technical quality (one might be supercharged). When judging the pressure quality by mobility range (flag curve in OpenWorks: PRES_QUAL), the tests can be summarized as 1 very good quality pressure and 3 poor quality pressures .\nThe results are shown in table below.\nSince Hugin Fm. appears to be missing in this well, the measured pressures in Heather and Skagerak Fm. are shown in plot with all formation pressures in Hugin Fm. at Volve (F-1 formation pressures are marked as black balls) in chapter 5.6. Note that the only pressure point measured previously in Heather Fm. at Volve (15/9-F-4, April 2008), also is plotted for comparison, this is an oil point.\nIn addition the drawdown mobility is plotted in the permeability track in the CPI plot for F-1, and the formation pressure is plotted in the density / neutron track, both marked as red balls.\nGradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 22 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 23,
+        "text": "Gradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 23 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "pdf/PETROPHYSICAL_REPORT_1.pdf",
+      "type": "table",
+      "content": {
+        "page_num": 23,
+        "link_to_table": "tables/PETROPHYSICAL_REPORT_1/tables_page_023.png",
+        "description": "The title of the table is \"Formation Pressure Data 15/9-F-1\" and it discusses the evaluation of formation pressure data for the 15/9-F-1 well. The table presents the results of six tests, including the depth, temperature, and pressure readings, as well as the drawdown mobility and pore pressure. The table also includes a section on the evaluation of the formation pressure data, which indicates that four of the six tests were successful and of good technical quality. The table also notes that the formation pressure quality is poor for three of the tests and very good for one test. Additionally, the table includes a section on the temperature measurements made using Baker's TesTrak tool, which are not reliable for absolute formation temperature or relative temperature trends."
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 24,
+        "text": "5.4 Evaluation of Formation Pressure Data 15/9-F-1 A\n3 of 7 tests were successful and of good technical quality. 4 tests were supercharged. When judging the pressure quality by mobility range (flag curve in OpenWorks: PRES_QUAL), the tests can be summarized as 2 very good quality pressures and 1 poor quality pressure .\nFormation pressure points in Hugin were ~11 bar above fm. pressure measured in 15/9-F-11 T2 (May 2013), ~5 bar above fm. pressure measured in 15/9-F-11 A (May 2013) and ~24.7 bar above initial fm. pressure measured in 15/9-19 BT2 (January 1998). This indicates a separate pressure regime compared to Hugin Fm. in Volve main field and in the NW segment.\nThe results are shown in table below and in plot of all formation pressures in Hugin Fm. at Volve (F-1 A formation pressures are marked as orange balls) in chapter 5.6.\nIn addition the drawdown mobility is plotted in the permeability track in the CPI plot for F-1 A, and the formation pressure is plotted in the density / neutron track, both marked as red balls.\nGradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 24 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 25,
+        "text": "Gradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 25 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "pdf/PETROPHYSICAL_REPORT_1.pdf",
+      "type": "table",
+      "content": {
+        "page_num": 25,
+        "link_to_table": "tables/PETROPHYSICAL_REPORT_1/tables_page_025.png",
+        "description": "The title of the table is \"Formation Pressure Data for Well 15/9-F-1 A.\" The table presents the formation pressure data for the well, including the depth, formation pressure, temperature, and remarks for each test. The data is organized into columns, with each row representing a different test. The table also includes a section at the bottom that provides additional information about the formation pressure quality and the number of successful tests."
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 26,
+        "text": "5.5 Evaluation of Formation Pressure Data 15/9-F-1 B\n10 of 10 tests were successful and of good technical quality. When judging the pressure quality by mobility range (flag curve in OpenWorks: PRES_QUAL), the tests can be summarized as 5 very good quality pressures, 4 good quality pressures and 1 poor quality pressure .\nFormation pressure points in Hugin show an oil gradient and were ~1 bar above fm. pressure measured in 15/9-F-11 A (May 2013). This pressure increase is in accordance with the following observations from down hole gauge measurements: Down hole pressure as measured at gauge in F-15 C May 21$^{th}$ 2013 (F-11 A TesTrak logging) was ~299 bara. Down hole pressure as measured at gauge in F-15 C September 6$^{th}$ 2013 (F-1 B TesTrak logging) was ~300 bara. This shows communication to Volve main field.\nWhen comparing to initial fm. pressure measured in 15/9-F-12 (February 2008), the formation pressure points in Hugin in F-1 B were ~13 bar higher, again in accordance with the increased pressure in the main field area.\nThe results are shown in table below and in plot of all formation pressures in Hugin Fm. at Volve (F-1 B formation pressures are marked as pink balls) in chapter 5.6. Note that the one pressure point in Sleipner Fm. also is plotted for comparison, this is a water point.\nWhen enhancing the scale of this formation pressure plot, ref. plot in chapter 5.7, it is seen that there is a small, but distinct pressure shift in the pressure points in F-1 B. The 3 uppermost points belonging to Upper Hugin, are ~0.5 bar lower than the remaining 6 Hugin points that belong to Thief Zone and Lower Hugin. A minor pressure shift can also be seen in the pressure points in F-11 A. But here the 7 uppermost points belonging to Upper Hugin and Thief Zone are ~ 0.1 bar lower than the remaining 6 Hugin points that belong to Lower Hugin. This trend in pressure shift is difficult to explain.\nIn addition the drawdown mobility is plotted in the permeability track in the CPI plot for F-1 B, and the formation pressure is plotted in the density / neutron track, both marked as red balls.\nGradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 26 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 27,
+        "text": "Gradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 27 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "pdf/PETROPHYSICAL_REPORT_1.pdf",
+      "type": "table",
+      "content": {
+        "page_num": 27,
+        "link_to_table": "tables/PETROPHYSICAL_REPORT_1/tables_page_027.png",
+        "description": "The title of the table is \"Well: 15/9-F-1 B Baker's TesTrak tool\" and it is a formation pressure test log for the Hugin field in the North Sea. The table presents data on the formation pressure, including the observed pressure, drawdown mobility, and pore pressure, for various zones in the well. The data is presented in a tabular format, with each row representing a different zone and each column representing a different parameter. The table also includes information on the test number, log run number, depth, and other relevant details. Overall, the table provides a detailed overview of the formation pressure data collected during the TesTrak logging operation in Well 15/9-F-1 B."
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 28,
+        "text": "5.6 Plot of Formation Pressure Data, 15/9-F-1, 15/9-F-1 A and 15/9-F-1 B\nRef. plot on next page:\nNote that the initial water gradient of 0.103 bar/m has been forced through the F-11 T2 pressure points, drawn as a blue, dashed line.\nNote also that the initial oil gradient of 0.0704 bar/m has been forced through the F-11 A pressure points, drawn as a green, dashed line.\nGradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 28 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 29,
+        "text": "Gradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 29 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "pictures",
+      "content": {
+        "page_num": 29,
+        "link_to_picture": "pictures/PETROPHYSICAL_REPORT_1/pictures_page_029.png",
+        "description": "The title of the figure is \"Plot of Formation Pressure Data, 15/9-F-1, 15/9-F-1 A and 15/9-F-1 B\". The figure shows a plot of formation pressure data for three wells: F-1, F-1 A, and F-1 B, which are located in the Hugin Formation at the Volve field. The plot displays the pressure data for each well, with the x-axis representing depth and the y-axis representing pressure. The data points are colored by well, with F-1 represented by blue, F-1 A represented by green, and F-1 B represented by pink. The plot also includes a dashed line representing the initial oil gradient, which is 0.0704 bar/m, and a solid line representing the initial water gradient, which is 0.103 bar/m. The plot suggests that there may be a pressure shift in the pressure points in F-1 B, with the uppermost points being lower than the remaining points. This trend is also observed in F-11 A, but to a lesser extent. The results are presented in a table and are discussed in the context of the overall formation pressure data for the Hugin Formation at the Volve field."
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 30,
+        "text": "5.7 Plot of Fm. Pressure Data with enhanced scale with focus on F-1 B and F-11 A\nRef. plot on next page:\nNote that the initial oil gradient of 0.0704 bar/m has been forced through the F-1 B pressure points, drawn as two green, dotted lines.\nGradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 30 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 31,
+        "text": "Gradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 31 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "pictures",
+      "content": {
+        "page_num": 31,
+        "link_to_picture": "pictures/PETROPHYSICAL_REPORT_1/pictures_page_031.png",
+        "description": "The title of the figure is \"Plot of Fm. Pressure Data with enhanced scale with focus on F-1 B and F-11 A\"."
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 32,
+        "text": "6 LWD NMR - MagTrak in 15/9-F-1\nBaker's LWD NMR tool, MagTrak, was logged in 8 1/2\" section of 15/9-F-1.\nThe tool transmitted RealTime the curves: total porosity, Clay Bound Volume Index and Bound Fluid Index. MagTrak sensor offset to Bit was 48.6 m.\n6.1 Logging mode and parameters\nThe tool was logged in \"Dual Wait Time\" (DTW) mode, also called \"PoroPermMT+Light HC\" mode, in order to process a salinity independent water saturation. Mode and parameter settings were the same as in 15/9-F-11 T2.\nAn average ROP of 20 m/hr (in the Section guidelines a max ROP of 20 m/hr and an optimal ROP of 10 m/hr was specified while drilling Hugin Fm.) was held from top Draupne to TD to assure a sufficient vertical resolution of the MagTrak data, and also to keep the Signal/Noise ratio high.\nVertical resolution with DTW mode and ROP = 20 m/hr was calculated to be 1.7 m. Vertical resolution with DTW mode and ROP = 30 m/hr was calculated to be 2.6 m.\nThe MagTrak data was logged and final post processed with the following parameters:\nRunning Average (Data Stacking) of 16: RA = 16 T2 Cutoffs: CBW = 3.3 ms, BVI = 33 ms (standard sandstone T2 cutoffs) Number of T2 bins: 27 over the range of 0.5 - 4096 ms.\nGradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 32 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 33,
+        "text": "6.2 MagTrak output\nIn table below are the most important curves from MagTrak listed with explanation:\n*MPHS: MPHS is only dependent on Hydrogen Index (HI). If HI unequal 1, then MPHS is also dependent of T2 cutoffs. 15/9-F-1 is mostly water filled, hence HI ~ 1.\nMPHS is comparable with PHIF (= PHIT) from conventional logs.\nMPERM is qualitative (semi-quantitative) comparable with KLOGH from conventional logs.\nMBW/MPHS is comparable with Swirr from resistivity logs (not applicable in this water filled well).\nGradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 33 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "pdf/PETROPHYSICAL_REPORT_1.pdf",
+      "type": "table",
+      "content": {
+        "page_num": 33,
+        "link_to_table": "tables/PETROPHYSICAL_REPORT_1/tables_page_033.png",
+        "description": "The title of the table in the image is \"6.2 MagTrak output\". This table provides an explanation of the most important curves from MagTrak, which are used to analyze the porosity and fluid properties of a formation. The table includes a list of curve names, their corresponding Baker's Curve Explanation, and the T2 cutoff values for each curve. The curves listed include MBVI (MagTrak Irreducible Fluid Porosity), MBVM (MagTrak Movable Fluid Porosity), MBW (MagTrak Bound Fluid Porosity), MCBW (MagTrak Clay Bound Volume Index), MPERM (MagTrak Permeability Index), MPHE (MagTrak Effective Porosity), and MPHS (MagTrak Total Porosity). Each curve has a specific T2 cutoff value, which is used to determine the range of T2 relaxation times that are included in the analysis. The table also includes notes on the default parameters and the comparison of different logging modes. Overall, the table provides a comprehensive overview of the MagTrak output and its various curves, making it easier to understand and interpret the data."
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 34,
+        "text": "· Purpose with running MagTrak was to achieve:\nLithology independent porosity\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 34,
+        "text": "o Salinity independent water/oil saturation\nIndependent (semi-quantitative) permeability indicator, possibility of detecting thief zone?\no Irreducible water saturation\no Discriminate between movable and bound fluid\nIndependent estimation of saturation exponent, n\no Pore size distribution\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 34,
+        "text": "· Achievements:\no MagTrak provides both a total and an effective porosity which is lithology independent. Total porosity from MagTrak, MPHS, is plotted (magenta curve) in same track as total porosity, PHIF, from conventional logs in the F-1 CPI. Also in F-1 the overall trend in Heather Fm. is that the PHIF is slightly lower than MPHS, indicating perhaps a too low matrix density applied for this formation. Skagerak Fm. seems quite heterogeneous on the density log, and here the poorer vertical resolution of MPHS (MagTrak) compared to PHIF (Density log) is easily seen. In Smith Bank Fm. PHIF fits with total porosity from MagTrak in the sandy sequences, but underestimates in the more shaly sequences.\no MagTrak provides an independent semi-quantitative permeability indicator, MPERM. This curve is plotted (magenta curve) in same track as the permeability from conventional logs and field model, KLOGH, in the F-1 CPI. The overall trend is that MPERM > KLOGH with the applied standard sandstone T2 cutoffs.\nSCAL (Special Core AnaLysis) data from 15/9-19 A was investigated to check if the default coefficients for the Coates-Timur permeability (MPERM) equation was appropriate, ref. chapter 6.5. This resulted in a permeability curve called MPERM_ADJUSTED which is plotted (light green curve) in the permeability track (track no. 8) in the F-1 CPI.\no Since the formations were ~ water filled, it was no point to order a processing from Baker to get an independent oil saturation.\no MagTrak provides a discrimination between movable and bound fluid. This is illustrated in track no. 7 in the F-1 CPI. Brown shading = clay bound fraction, turquoise shading = capillary bound fraction and yellow shading = free or movable fluid fraction.\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 34,
+        "text": "6.3 MagTrak purpose and achievement\no\nSince the reservoir turned out to be missing and the other formations seem to be ~ water filled, some of the purposes were not any longer applicable.\nThe discrimination between movable and bound fluid is also illustrated in the MagTrak T2 distribution plots, ref. fig. 6.4.1 and fig. 6.4.2, track no. 5 and 6.\nIn Draupne Fm. the complete T2 signal is coming from the Clay bound fraction.\nIn Heather Fm. the T2 signal is mainly coming from the Free Fluid fraction which mostly shows a bimodal distribution coming from formation water (to the left) and oil based mud filtrate (to the right). This reflects good formation properties for a Heather Formation.\nGradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 34 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 35,
+        "text": "o MagTrak provides an irreducible water saturation which is the ratio: bound fluid / total porosity. This is named SWIRR_MTK and is plotted (magenta curve) in same track as the water saturation from the conventional logs. Since ~ water filled formations, comparison against water saturation from conventional logs is of course not applicable.\no Since the formations were ~ water filled, the method of estimating n from the slope when illustrating Archie Water Saturation equation graphically above transition zone, was not applicable.\no Pore size distribution: this needs 2 more processings (DTW and Grain Size Distribution) from Baker, and has not been ordered.\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 35,
+        "text": "Upper part of Skagerak Fm. shows T2 signal mainly coming from the Capillary Bound fraction (3.3 ms < T2 < 33 ms), reflecting poor formation properties. Lower part of Skagerak Fm. has however more of the T2 signal coming from the Free Fluid fraction which shows mainly a bimodal distribution. Hence reflecting better properties in this part of Skagerak Fm.\nT2 signal in Smith Bank Fm. reflects the alternating shale / sand lithology with signal coming mainly from respectively Clay Bound fraction and Free Fluid fraction.\nGradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 35 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 36,
+        "text": "6.4 MagTrak T2 distribution plots\nFigure 6.4.1 showing T2 distribution from MagTrak in track no. 5. Heather Fm. shows mainly bimodal T2 distribution of the Free Fluid fraction due to invasion of mudfiltrate (OBM). OBM filtrate signal to the right and formation water signal to the left. In Upper Skagerak Fm. very\nGradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 36 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "pictures",
+      "content": {
+        "page_num": 36,
+        "link_to_picture": "pictures/PETROPHYSICAL_REPORT_1/pictures_page_036.png",
+        "description": "The title of the figure is \"6.4 MagTrak T2 distribution plots\". The figure shows the T2 distribution from MagTrak in track no. 5, with Heather Formation showing mainly bimodal T2 distribution of the Free Fluid fraction due to invasion of mudfiltrate (OBM). The OBM filtrate signal is to the right and formation water signal is to the left. In Upper Skagerak Formation, very."
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 37,
+        "text": "little T2 signal is coming from the Free Fluid fraction, most of the signal is coming from the Capillary Bound fraction (3.3 ms < T2 < 33 ms.)\nFigure 6.4.2 showing T2 distribution from MagTrak in track no. 5. Lower part of Skagerak Fm. has more of the T2 signal coming from the Free Fluid fraction which shows mainly a bimodal distribution. Hence reflecting better properties in this part of Skagerak Fm.\nGradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 37 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "pictures",
+      "content": {
+        "page_num": 37,
+        "link_to_picture": "pictures/PETROPHYSICAL_REPORT_1/pictures_page_037.png",
+        "description": "The figure shows a T2 distribution plot from MagTrak in track no. 5, with the lower part of Skagerak Fm. having more of the T2 signal coming from the Free Fluid fraction, which shows mainly a bimodal distribution. This indicates better formation properties in this part of Skagerak Fm."
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 38,
+        "text": "6.5 Coates-Timur permeability\nA verification / check of the coefficients in the Coates-Timur permeability equation has been done.\nDue to lack of cores in 15/9-F-11 T2 and 15/9-F-1, the SCAL data in 15/9-19 A was reviewed. An overview over SCAL permeability versus irreducible water saturation from different methods is given in figure 6.5.1.\nFigure 6.5.1. SCAL data from well 15/9-19 A. All permeability data versus irreducible water saturation data derived from different methods listed to the right and separated by different colors. The data from mercury injection should be disregarded.\nData from the CCAL (Conventional Core AnaLysis) plugs are shown as purple squares in fig. 6.5.1. The water saturation is measured by Dean and Stark method (OBM) and is measured together with porosity at vertical plugs. Permeability is however not measured on same vertical plugs, but on horizontal plugs. Due to this, permeability has been picked from adjacent plugs with approximately same porosity.\nThe overall trend is quite a large scatter in the data range, hence corresponding large uncertainty.The mercury injection data is however clear outliers, and data from this method should be disregarded.\nGradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 38 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "pictures",
+      "content": {
+        "page_num": 38,
+        "link_to_picture": "pictures/PETROPHYSICAL_REPORT_1/pictures_page_038.png",
+        "description": "The figure is titled \"Coates-Timur permeability\". It presents a verification and check of the coefficients in the Coates-Timur permeability equation, which was done due to a lack of cores in 15/9-F-11 T2 and 15/9-F-1. The SCAL data in 15/9-19 A was reviewed, and an overview of SCAL permeability versus irreducible water saturation from different methods is given."
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 39,
+        "text": "In order to illustrate Coates-Timur permeability equation graphically (ref. fig. 6.5.2) to verify / check the default coefficients, b=2 and C=10, the equation was split into a linear equation as shown below:\nb BVI FFI C K             ×       = 2 φ\nb BVI FFI C LOG LOGK             ×       = 2 φ\n            × ×       = b b BVI FFI C LOG LOGK 2 2 1 φ\n      × +       = BVI FFI bLOG C bLOG LOGK 2 2 1 φ\n( )       × + - = BVI FFI bLOG C LOG LOG b LOGK 2 $^{2}$) ( (1) φ\n      × + - = BVI FFI bLOG C LOG b LOGK 2 $^{2}$)) ( ( φ\n+ - = ) ( 2 C bLOG LOGK       × BVI FFI bLOG 2 φ\nFig. 6.5.2 shows that the default coefficients (solid line) in the Coates-Timur equation is not appropriate when comparing to the core data from Hugin Fm. in 15/9-19 A. Despite large scattering in the data, a new regression line has been suggested, ref. dashed line, giving the coefficients: b=2.5 and C=17.8.\nNew adjusted MPERM, named MPERM_ADJUSTED, according to these new parameters is plotted (light green curve) in the permeability track, track no. 8, in the F-1 CPI. In general MPERM_ADJUSTED is closer to KLOGH from field model than MPERM.\nGradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 39 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "pictures",
+      "content": {
+        "page_num": 39,
+        "link_to_picture": "pictures/PETROPHYSICAL_REPORT_1/pictures_page_039.png",
+        "description": "The figure illustrates the Coates-Timur permeability equation graphically, with a solid line representing the default coefficients (b=2 and C=10), and a dashed line representing a new regression line suggested by the user. The equation is split into a linear equation as shown below. The figure shows that the default coefficients are not appropriate when comparing to the core data from Hugin Fm. in 15/9-19 A, despite large scattering in the data. A new regression line has been suggested, giving the coefficients: b=2.5 and C=17.8. The figure also shows that the mercury injection data is an outlier and should be disregarded. The water saturation is measured by Dean and Stark method (OBM) and is measured together with porosity at vertical plugs. Permeability is however not measured on same vertical plugs, but on horizontal plugs. Due to this, permeability has been picked from adjacent plugs with approximately same porosity. The figure shows that the SCAL data in 15/9-19 A was reviewed, and an overview over SCAL permeability versus irreducible water saturation from different methods is given. A verification / check of the coefficients in the Coates-Timur permeability equation has been done.\n\nThe title of the figure is \"Verification / Check of Coates-Timur Permeability Equation\"."
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 40,
+        "text": "Figure 6.5.2. SCAL data from well 15/9-19 A illustrating Coates-Timur permeability equation. Solid regression line is with default coefficients; b=2 and C=10. This line seems to be off compared to the core data, resulting in a too high MagTrak permeability, MPERM. Dashed line is with adjusted coefficients: b=2.5 and C=17.8. This line seems more reasonable compared to the core data.\nGradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 40 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "pictures",
+      "content": {
+        "page_num": 40,
+        "link_to_picture": "pictures/PETROPHYSICAL_REPORT_1/pictures_page_040.png",
+        "description": "The title of the figure is \"Volve 15/9-19 A Hugin Fm. Coates-Timur permeability regression.\" The figure shows a plot of permeability (mD) versus log (p^2 x FFI/BVI) for various data points, including PC RI Porous Plate, Centrifuge relperm, Wettability, restored, Wettability, cleaned, Wettability, fresh, Water/Oil US$ relperm at res.cond., Water/Oil rel perm in the centrifuge, Capillary pressure from mercury injection, Core plugs used in waterflooding at reservoir conditions, and CCAL plugs (OBM), Dean & Stark. The solid regression line represents the default coefficients (b=2 and C=10), while the dashed line represents the adjusted coefficients (b=2.5 and C=17.8). The figure suggests that the default coefficients may not be appropriate for this data set, as the resulting permeability (MPERM) is too high compared to the core data. The adjusted coefficients appear to provide a better fit to the data."
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 41,
+        "text": "7 Petrophysical results\nTables below in this chapter are showing average values of Net/Gross (N/G), total porosity (PHIF), total water saturation (SW) and horizontal permeability from logs (KLOGH) in Netsand.\nGradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 41 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 42,
+        "text": "7.1 Petrophysical results 15/9-F-1\n15/9-F-1 Averages\nGradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 42 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "pdf/PETROPHYSICAL_REPORT_1.pdf",
+      "type": "table",
+      "content": {
+        "page_num": 42,
+        "link_to_table": "tables/PETROPHYSICAL_REPORT_1/tables_page_042.png",
+        "description": "The table in this chapter is showing average values of Net/Gross (N/G), total porosity (PHIF), total water saturation (SW) and horizontal permeability from logs (KLOGH) in Netsand."
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 43,
+        "text": "7.2 Petrophysical results 15/9-F-1 A\n15/9-F-1 A Averages\nGradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 43 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "pdf/PETROPHYSICAL_REPORT_1.pdf",
+      "type": "table",
+      "content": {
+        "page_num": 43,
+        "link_to_table": "tables/PETROPHYSICAL_REPORT_1/tables_page_043.png",
+        "description": "The table titled \"15/9-F-1 A Averages\" presents average values for Net/Gross (N/G), total porosity (PHIF), total water saturation (SW), and horizontal permeability from logs (KLOGH) in Netsand. The table includes data from various formations and zones, with each row representing a specific formation or zone. The columns display the average values for each parameter, as well as the standard deviation (SD) for some parameters. The table provides a comprehensive overview of the petrophysical results for the 15/9-F-1 A well, allowing for a detailed analysis of the formation's properties."
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 44,
+        "text": "7.3 Petrophysical results 15/9-F-1 B\n15/9-F-1 B Averages\nGradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 44 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "pdf/PETROPHYSICAL_REPORT_1.pdf",
+      "type": "table",
+      "content": {
+        "page_num": 44,
+        "link_to_table": "tables/PETROPHYSICAL_REPORT_1/tables_page_044.png",
+        "description": "The table below in this chapter is showing average values of Net/Gross (N/G), total porosity (PHIF), total water saturation (SW) and horizontal permeability from logs (KLOGH) in Netsand. The title of the table is \"Petrophysical results 15/9-F-1 B\". The table provides an overview of the petrophysical properties of the Netsand formation, including the average values of N/G, PHIF, SW, and KLOGH. The table is divided into columns, with each column representing a different property. The rows represent different zones within the Netsand formation. The table provides a quick and easy way to compare the petrophysical properties of different zones within the formation."
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 45,
+        "text": "8 CPI plots of evaluated curves and raw data\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 45,
+        "text": "Gradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 45 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 46,
+        "text": "8.1 CPI plot 15/9-F-1\nGradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 46 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "pictures",
+      "content": {
+        "page_num": 46,
+        "link_to_picture": "pictures/PETROPHYSICAL_REPORT_1/pictures_page_046.png",
+        "description": "The title of the table/figure is \"VOLVE PETROPHYSICAL EVALUATION BAKER HUGHES LWD MEMORY DATA. LOGGED AUGUST 2013.\" This figure appears to be a petrophysical evaluation plot, which is a graphical representation of the physical properties of a rock formation, such as porosity, permeability, and density. The plot likely shows the results of various logging measurements taken during an oil and gas well drilling operation, including the Baker Hughes LWD (Logging While Drilling) memory data logged in August 2013. \n\nThis figure is likely used to analyze the petrophysical characteristics of the rock formation and to determine the potential for hydrocarbon accumulation."
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 47,
+        "text": "8.2 CPI plot 15/9-F-1 A\nGradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 47 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "pictures",
+      "content": {
+        "page_num": 47,
+        "link_to_picture": "pictures/PETROPHYSICAL_REPORT_1/pictures_page_047.png",
+        "description": "The image depicts a CPI plot for Well 15/9-F-1 A, which is a detailed representation of the well's petrophysical properties. The plot includes various layers and their corresponding properties, such as porosity, permeability, and resistivity.\n\nThe title of the figure is \"VOLVE PETROPHYSICAL EVALUATION BAKER HUGHES LWD MEMORY DATA. LOGGED AUGUST 2013.\" This suggests that the plot is a result of a petrophysical evaluation conducted by Baker Hughes using their LWD (Logging While Drilling) memory data, which was logged in August 2013."
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 48,
+        "text": "8.3 CPI plot 15/9-F-1 B\nGradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 48 av 49\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "pictures",
+      "content": {
+        "page_num": 48,
+        "link_to_picture": "pictures/PETROPHYSICAL_REPORT_1/pictures_page_048.png",
+        "description": "The figure is a CPI plot of 15/9-F-1 B, a well log that displays various geological data such as porosity, permeability, and resistivity. The plot provides a visual representation of the well's characteristics, allowing for analysis and interpretation of the data."
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 49,
+        "text": "1. \"Sleipner Øst and Volve Model 2006, Hugin and Skagerrak Formation, Petrophysical Evaluation\". November 2006. Author: Elin Solfjell, Karl Audun Lehne.\n2. Logtek's info file for well 15/9-F-1: WLC_COMPOSITE_1_INF_1.PDF\n3. Logtek's info file for well 15/9-F-1 A: WLC_COMPOSITE_1_INF_1.PDF\n4. Logtek's info file for well 15/9-F-1 B: WLC_COMPOSITE_1_INF_1.PDF\n6. Special Core Analysis, Sleipner. Well 15/9-19 A. ResLab. 1999-05-25.\n5. MagTrak MR-LWD, Job Planning Report & Definition of Deliverables, Well Name: 15/9-F-1 North Upside Pilot, Field Name: Volve, Company: Statoil ASA, Location: North Sea, Country: Norway, Prepared For: Torill Vee, Prepared By: Monica Nævdal, Date Prepared: 12-Aug-2013.\n7. Volve 15/9-F-11, 15/9-F-11 T2, 15/9-F-11 A, 15/9-F-11 B Petrophysical (static) well evaluation, Interpreter: Torill Vee, Date: November 2013.\n8. Final Well Report Well NO 15/9-F-11, F-11 T2, F-11 A, F-11 B Volve Field.\n"
+      }
+    },
+    {
+      "report_type": "petropysical",
+      "well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B",
+      "extra": "intepreter: Torill Vee, Date: Febuary 2014",
+      "name_file": "PETROPHYSICAL_REPORT_1.PDF",
+      "type": "text",
+      "content": {
+        "page_num": 49,
+        "text": "9 References\nGradering: Internal\nStatus: Draft\nUtløpsdato: 2014-09-12\nSide 49 av 49\n"
+      }
+    }
+  ]

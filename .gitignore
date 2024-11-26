@@ -1,3 +1,4 @@
+__pycache__
 venv
 pdf_parsing_service.py
 config.py
@@ -6,3 +7,10 @@ pictures
 tables
 text
 pdf
+logs
+FC_test.ipynb
+parsing_test.ipynb
+query_test.ipynb
+data
+PDF_test_1
+parsed

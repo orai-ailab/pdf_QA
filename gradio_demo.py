@@ -2,98 +2,63 @@ import time
 import gradio as gr
 import json
 import os
-from openai import OpenAI
-from gradio_multimodalchatbot import MultimodalChatbot
-from gradio.data_classes import FileData
-from config import settings
-from utils import query_pdfs
+import requests
+from typing import Tuple, List, Optional
 
-def infer_chat(message):
-    model = settings.LLM_INFERENCE_MODEL
-    TOGETHER_API_KEY = settings.TOGETHER_API_KEY
-    client = OpenAI(
-        api_key=TOGETHER_API_KEY,
-        base_url='https://api.together.xyz/v1',
-    )
-    chat_response = client.chat.completions.create(
-        model=model,
-        messages=message,
-        top_p=0.2,
-        stream=False,
-    )   
-    return chat_response.choices[0].message.content
-def paraphrase(message):
-    infer_message = [{
-        "role": "user",
-        "content": f"""
-            Simple paraphrase this message : `{message}`
-            Just return the paraphrased sentence, do not say anything else.
-        """
-    }]
-    response = infer_chat(infer_message)
-    return response
-def chat_response(message):
-    query_result = query_pdfs(message)
-    
-    infer_message = [{
-        "role": "user",
-        "content": f"""
-            User will ask you the information relating to some pdf files.
-            This is their question: {message}
-            You are required to answer their question based on this relevant information which is queried from vector database according to the user's message. Extract the relevant info and answer to user. If the query result is table or picture,select the most appropriate table/picture provide path to the table. If the query give you different path, choose the first one.
-            This is the query result (information you rely on):
-            ```
-            {query_result}
-            ```
-            Your answer must be in this json format, dont reply anything else, like this:
-            {{
-                "text":"your response after concatenate all relative information to get the answer",
-                "files":"path_to_table or path_to_picture if you think a table or picture relate to user's question else you can leave this ''."
-            }}
-        """
-    }]
-    response = infer_chat(infer_message)
+API_URL = "http://localhost:8000/ask"
+
+def clean_and_parse_json(response_text: str) -> dict:
     try:
-        json_loaded_response = json.loads(response)
-        print(json_loaded_response)
-    except:
-        print('JSON not properly generated')
-        print(response)
+        if response_text.startswith('"') and response_text.endswith('"'):
+            response_text = response_text[1:-1]
+            
+        response_text = response_text.encode().decode('unicode_escape')
+        
+        if response_text.startswith('```') and response_text.endswith('```'):
+            response_text = response_text[3:-3].strip()
+            
+        return json.loads(response_text)
+    except json.JSONDecodeError as e:
+        print(f"JSON parsing error: {e}")
+        return {"response": "Sorry, I encountered an error processing the response.", "link": ""}
+
     
-    return json_loaded_response
-# # user_msg3 = {"text": "Give me a video clip please.",
-# #              "files": []}
-# # bot_msg3 = {"text": "Here is a video clip of the world",
-# #             "files": [{"file": FileData(path="table_Well Test Report_nr-20/table_page_004.png")},
-# #                     ]}
+def call_chatbot_api(message: str) -> dict:
+    try:
+        response = requests.post(
+            API_URL,
+            json={"text": message},
+            headers={"Content-Type": "application/json"}
+        )
+        
+        # response_text = response_text.strip()
+        # if response_text.startswith("```") and response_text.endswith("```"):
+            # response_text = response_text[3:-3].strip()
+            
+        return response.text
+    except requests.exceptions.RequestException as e:
+        print(f"API call failed: {e}")
+        return {"response": f"Error: Could not connect to the chatbot API. {str(e)}"}
 
-# # conversation = [[user_msg3, bot_msg3]]
-
-# # with gr.Blocks() as demo:
-# #     MultimodalChatbot(value=conversation, height=800)
-
-
-# # demo.launch()
-
-
-
-def process_chat(message, history):
-    # Call your chat function
-    response = chat_response(message)
-    
-    # Append the new message to history
-    history.append((message, response["text"]))
-    
-    # Handle image display
-    image = None
-    if response["files"] and os.path.isfile(response["files"]):
-        try:
-            image = response["files"]
-        except Exception as e:
-            print(f"Error loading image: {e}")
-            image = None
-    
-    return history, image
+def process_chat(message: str, history: List[Tuple[str, str]]) -> Tuple[List[Tuple[str, str]], Optional[str]]:
+    try:
+        api_response = call_chatbot_api(message)
+        response_text = clean_and_parse_json(api_response)
+        history.append((message, response_text["response"]))
+        image = None
+        if "link" in response_text and os.path.isfile(response_text["link"]):
+            try:
+                image = response_text["link"]
+            except Exception as e:
+                print(f"Error loading image: {e}")
+                image = None
+        print('TRY RUNNED')
+        return history, image
+    except Exception as e:
+        error_message = f"Error processing message: {str(e)}"
+        history.append((message, error_message))
+        print('EXCEPT RUNNED')
+        return history, None
 
 if __name__ == "__main__":
     with gr.Blocks() as demo:
@@ -111,4 +76,5 @@ if __name__ == "__main__":
             None,
             msg
         )
+        
         demo.launch(share=True)

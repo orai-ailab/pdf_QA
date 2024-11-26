@@ -1,20 +1,68 @@
 1. How many wells have Biostratigraphy/Biostrat report? and list all as well for me.
-
+-> get_reports_of_biostratigraphy()
 
 2. Give me the information of Middle Jurassic zonation of Biostrat report of well ''15/9-F-1''.
-
+-> passed
 
 3. Give me all the report of Petrophysical? and summary the petrophysical result of Well named ''15/9-F-1''
--> page 9 of BIOSTRAT_REPORT_1.PDF (add image with bbox)
+-> get_report_of_pertrophysical()
+
+```
+query_result = query_pdfs(
+    query="summary the petrophysical result of Well named 15/9-F-1",
+    where={"$and": [{"Report_type": 'petropysical'},{"Filename": "PETROPHYSICAL_REPORT_1.PDF"}]},
+    COLLECTION_NAME='PDF_test_3',n_results=5)
+```
 
 4. For the End of well report, Summary the Hole record of Well named 15/9-F-12?
 
+```
+query_result = query_pdfs(
+    # query="include hole record and casing record",
+    query="hole record",
+    where={"$and": [
+        {"Report_type": 'drilling and measurements for end of well report'},
+        {"Filename": "pdf/DRILLING_REPORT_1.pdf"},
+        # {"Page_num":"5"}
+    ]},
+    COLLECTION_NAME='PDF_test_3',n_results=30)
+```
 
 5. I am looking Final Well Report, Can you show me the report of Well named ''15/9-F-4'' and list let me know how many BHA runs for this well?
+```
+query_result = query_pdfs(
+    # query="include hole record and casing record",
+    query="list let me know how many BHA runs",
+    # where={
+    #     # "Report_type":'final well report',
+    #     "Well_name":'15/9-F-4'
+    # },
+    where={"$and": [
+        {"Report_type": 'final well report, completion FWR'},
+        {"Well_name": '15/9-F-4'},
+        {"Filename": "FWR_completion.pdf"},
+        # {"Page_num":"5"}
+    ]},
+    COLLECTION_NAME='PDF_test_3',n_results=50,n_top=10)
+```
 
-
-6. For Well Test report, Please give me the Main results of Test 1 of well name ''15/19-19A"
-
+6. For Well Test report, Please give me the Main results of Test 1 of well name ''15/9-19A"
+```
+query_result = query_pdfs(
+    # query="include hole record and casing record",
+    query="Main results of Test 1 of well name 15/9-19A",
+    where={
+        # "Report_type":'final well report',
+        "Well_name":'15/9-19A'
+    },
+    # where={"$and": [
+    #     {"Report_type": 'final well report, completion FWR'},
+    #     {"Well_name": '15/9-F-4'},
+    #     {"Filename": "FWR_completion.pdf"},
+    #     # {"Page_num":"5"}
+    # ]},
+    COLLECTION_NAME='PDF_test_3',n_results=50,n_top=10)
+```
 
 <@917683107459641386> 
 # 1. How many wells have Biostratigraphy/Biostrat report?

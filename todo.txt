@@ -1,2 +1,5 @@
-tool_calls prepare 
-fix add chunking data 
+chunking chi de description
+chia enum ra cac function khac nhau de query
+
+
+

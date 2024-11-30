@@ -35,7 +35,7 @@ SYSTEM_PROMPT = """
 
         ### Response Guidelines
         1. Always respond in a strict JSON format with two key fields:
-        ```json
+        ```
         {
             "response": "Detailed, informative answer to the user's query",
             "link": "Direct linke to table or picture (if provided in query)"
@@ -77,8 +77,8 @@ TOOLS = [
     # {
     #     "type": "function",
     #     "function": {
-    #         "name": "fc_query",
-    #         "description": "Function to get query result from chroma database from your parameters. This function help you to get the relevant information from the report report_type and about the well well_name",
+    #         "name": "query_overall",
+    #         "description": "Function to get query result from chroma database from your query text. No well_name and report_type needed (because you do not know about them).",
     #         "parameters": {
     #             "type": "object",
     #             "properties": {
@@ -86,16 +86,6 @@ TOOLS = [
     #                     "type": "string",
     #                     "description": "Your main query to get information. You should pass the entire question here.",
     #                 },
-    #                 "report_type": {
-    #                     "type": "string", 
-    #                     "description":"type of report you think you can find relevant information. You can not pass by this value if there is no report type refered",
-    #                     "enum": ["end of well report", "Biostratigraphy","drilling and measurements for end of well report","final well report","petropysical","Rock Mechanical Testing","final seismic QC report","well test report","A Stratigraphic Reconstruction of Bulk Volatile Chemistry from Fluid Inclusion"]
-    #                 },
-    #                 "well_name":{
-    #                     "type":"string",
-    #                     "description":"type of well you think you can find relevant information. You can not pass by this value if there is no report type refered",
-    #                     "enum": ["15/9-F-1\n15/9-F-1 A\n15/9-F-1 B","15/9-F-1","15/9-F-10","15/9-F-12","15/9-F-4","15/9-F-15","15/9-F-10","15/9-19A","15/9-F15S"]
-    #                 }
     #             },
     #             "required": ["query_text"],
     #         },

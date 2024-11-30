@@ -1,0 +1,16 @@
+version: '3'
+services:
+  chroma:
+    build: .
+    ports:
+      - "5001:5001"
+  chatbot:
+    build: .
+    command: python chatbot.py
+    ports:
+      - "8000:8000"
+  demo:
+    build: .
+    command: python gradio_demo.py
+    ports:
+      - "7860:7860"

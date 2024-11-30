@@ -14,7 +14,7 @@ def query_distinct_value_of_field(field_name):
         
         return list(normalized_files.values())
     
-    result = eliminate_duplicates(get_distinct_field(field=field_name,collection_name="PDF_test_3"))
+    result = eliminate_duplicates(get_distinct_field(field=field_name,collection_name="PDF_test_6"))
     return result
 
 def get_group_of_biostratigraphy(group_by="Well_name"):
@@ -24,7 +24,7 @@ def get_group_of_biostratigraphy(group_by="Well_name"):
         where=filter,
         n_results=100,  # Adjust to ensure you retrieve all relevant documents
         n_top=100,  # Retrieve up to 100 top results
-        COLLECTION_NAME="PDF_test_3",
+        COLLECTION_NAME="PDF_test_6",
         group_by=group_by
     )
     return set(result)
@@ -41,7 +41,7 @@ def get_information_in_biostratigraphy(keyword="",well_name="15/9-F-1"):
         where=filter,
         n_results=20,  # Adjust to ensure you retrieve all relevant documents
         n_top=5,  # Retrieve up to 100 top results
-        COLLECTION_NAME="PDF_test_3",
+        COLLECTION_NAME="PDF_test_6",
     )
     return (result)
 
@@ -52,7 +52,7 @@ def get_group_of_petropysical(group_by="Filename"):
         where=filter,
         n_results=100,  # Adjust to ensure you retrieve all relevant documents
         n_top=100,  # Retrieve up to 100 top results
-        COLLECTION_NAME="PDF_test_3",
+        COLLECTION_NAME="PDF_test_6",
         group_by=group_by
     )
     
@@ -60,9 +60,14 @@ def get_group_of_petropysical(group_by="Filename"):
 
 def summary_of_petrophysical_result(well_name="15/9-F-1"):
     query_result = query_pdfs(
-        query=f"summary the petrophysical result of Well named {well_name}",
-        where={"$and": [{"Report_type": 'petropysical'},{"Filename": "PETROPHYSICAL_REPORT_1.PDF"}]},
-        COLLECTION_NAME='PDF_test_3',n_results=30,n_top=5)
+        query=f"summary {well_name}",
+        where={"Report_type": 'petropysical'},
+        # where={"$and": [
+        #     {"Report_type": 'petropysical'},
+        #     {"Page_num":"4"},
+        #     # {"Page_num":"5"}
+        # ]},
+        COLLECTION_NAME='PDF_test_6',n_results=100,n_top=10)
     return query_result
 
 def summary_hole_record(well_name="15/9-F-12"):
@@ -74,7 +79,7 @@ def summary_hole_record(well_name="15/9-F-12"):
             {"Filename": "pdf/DRILLING_REPORT_1.pdf"},
             # {"Page_num":"5"}
         ]},
-        COLLECTION_NAME='PDF_test_3',n_results=30,n_top=5)
+        COLLECTION_NAME='PDF_test_6',n_results=30,n_top=5)
     return query_result
 
 def final_well_report_list_bha(well_name="15/9-F-4"):
@@ -91,7 +96,7 @@ def final_well_report_list_bha(well_name="15/9-F-4"):
             {"Filename": "FWR_completion.pdf"},
             # {"Page_num":"5"}
         ]},
-        COLLECTION_NAME='PDF_test_3',n_results=50,n_top=10)
+        COLLECTION_NAME='PDF_test_6',n_results=50,n_top=10)
     return query_result
 
 def well_report_get_main_result_of_test_of_well(test_no='1',well_name='15/9-19A'):
@@ -108,35 +113,27 @@ def well_report_get_main_result_of_test_of_well(test_no='1',well_name='15/9-19A'
         #     {"Filename": "FWR_completion.pdf"},
         #     # {"Page_num":"5"}
         # ]},
-        COLLECTION_NAME='PDF_test_3',n_results=100,n_top=10)
+        COLLECTION_NAME='PDF_test_6',n_results=100,n_top=10)
     return query_result
 
 def query_overall(query_text=""):
     result = query_pdfs(
         query=query_text,
-        COLLECTION_NAME='PDF_test_3',
-        n_results=3
+        COLLECTION_NAME='PDF_test_6',
+        n_results=100,
+        n_top=10,
     )
     # print('QUERY RESULT: ',query_result)
     # print('WHERE: ',{"$and": [{"report_type": report_type},{"well_name": well_name}]})
     return result
 
-
-
-
-
 def get_function_response(function_name,function_args):
-    if function_name == "fc_query":
-        query_text = function_args["query_text"]
-        report_type = function_args.get("report_type",None)
-        well_name = function_args.get("well_name",None)
-    
-        function_response = fc_query(
-            query_text=query_text,
-            report_type=report_type,
-            well_name=well_name
-        )
-    elif function_name == "query_distinct_value_of_field":
+    # if function_name == "query_overall":
+    #     query_text = function_args["query_text"]    
+    #     function_response = query_overall(
+    #         query_text=query_text,
+    #     )
+    if function_name == "query_distinct_value_of_field":
         field_name = function_args["field_name"]
         function_response = query_distinct_value_of_field(
             field_name=field_name

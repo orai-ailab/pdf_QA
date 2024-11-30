@@ -1,6 +1,6 @@
 import os
 import json
-from transform import prepare_data
+from ETL.transform import prepare_data
 from utils import add_pdfs
 def load_pdf_to_chromadb(
     parsed_dir='parsed',

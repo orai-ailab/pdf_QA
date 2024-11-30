@@ -1,26 +1,35 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from typing import List, Optional
+from typing import List, Optional, Tuple
 from openai import OpenAI
 from utils import query_pdfs, get_distinct_field
 import json
-from functions import *
-from prompts import *
+from bot_utils.functions import *
+from bot_utils.prompts import *
 from config import settings
 
 app = FastAPI(title="Chat Inference API", version="1.0.0")
 
-class Question(BaseModel):
-    text: str
+# class Question(BaseModel):
+#     text: str
 
-class ChatMessage(BaseModel):
-    role: str
-    content: str
-    tool_call_id: Optional[str] = None
-    name: Optional[str] = None
+# class ChatMessage(BaseModel):
+#     role: str
+#     content: str
+#     tool_call_id: Optional[str] = None
+#     name: Optional[str] = None
 
-class ChatResponse(BaseModel):
+# class ChatResponse(BaseModel):
+#     response: str
+    
+class ChatRequest(BaseModel):
+    message: str
+    history: List[Tuple[str,str]]
+
+class FormatResponse(BaseModel):
     response: str
+    link: str
+
 
 def infer_chat(messages: List[dict], tools: List[dict]) -> str:
     model = settings.LLM_INFERENCE_MODEL
@@ -46,7 +55,7 @@ def infer_chat(messages: List[dict], tools: List[dict]) -> str:
                 function_response = get_function_response(function_name, function_args)
                 print('FUNCTION NAME: ',function_name)
                 print('FUNCTION ARGS: ',function_args)
-                print('FUNCTION_RESPONSE: ',function_response) 
+                # print('FUNCTION_RESPONSE: ',function_response) 
                 messages.append({
                     "tool_call_id": tool_call.id,
                     "role": "tool",
@@ -56,9 +65,12 @@ def infer_chat(messages: List[dict], tools: List[dict]) -> str:
                 
                 function_enriched_response = client.chat.completions.create(
                     model=model,
-                    messages=messages
+                    messages=messages,
+                    # response_format=FormatResponse,
                 )
                 return function_enriched_response.choices[0].message.content
+                # print(function_enriched_response.choices[0].message.parsed)
+                # return function_enriched_response.choices[0].message.parsed
                 
         return chat_response.choices[0].message.content
         
@@ -66,22 +78,53 @@ def infer_chat(messages: List[dict], tools: List[dict]) -> str:
         raise HTTPException(status_code=500, detail=str(e))
 
 @app.post("/ask")
-async def ask_question(question: Question):
-    print('RECEIVED QUESETION: ', question.text)
+async def ask_question(chat_request: ChatRequest):
+    print("RECEIVED REQUEST: ", chat_request)
+    new_message = chat_request.message
+    
+    chat_history = chat_request.history
+    
+    print('RECEIVED NEW MESSAGE: ', new_message)
+    print('RECEIVED HISTORY: ',chat_history)
     messages = [
         {
             "role": "system",
             "content": SYSTEM_PROMPT
-        },
-        {
-            "role": "user",
-            "content": question.text
         }
     ]
+    
+    for (mess,resp) in chat_history[:-10]:
+        messages.extend(
+            [
+                {
+                    "role":"user",
+                    "content":mess
+                },
+                {
+                    "role":"assistant",
+                    "content":resp
+                }
+            ]
+        )
+    messages.append((
+        {
+            "role":"user",
+            "content": new_message
+        }
+    ))
+    print('MESSAGES: ',messages)
+    # print(messages)
 
     try:
         response = infer_chat(messages, TOOLS)
-        print("RESPONSE: ",response)
+        # print("RESPONSE: ",response)
+        # history = [
+        #     {
+        #         "role":"assistant",
+        #         "content":response
+        #     }
+        # ]
+        # messages.append(history)
         return response
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))

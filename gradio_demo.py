@@ -3,7 +3,7 @@ import gradio as gr
 import json
 import os
 import requests
-from typing import Tuple, List, Optional
+from typing import Tuple, List, Optional, Dict
 
 API_URL = "http://localhost:8000/ask"
 
@@ -16,34 +16,44 @@ def clean_and_parse_json(response_text: str) -> dict:
         
         if response_text.startswith('```') and response_text.endswith('```'):
             response_text = response_text[3:-3].strip()
-            
+        
         return json.loads(response_text)
     except json.JSONDecodeError as e:
         print(f"JSON parsing error: {e}")
-        return {"response": "Sorry, I encountered an error processing the response.", "link": ""}
+        return {"response": response_text, "link": ""}
 
     
-def call_chatbot_api(message: str) -> dict:
+# def call_chatbot_api(message: str) -> dict:
+def call_chatbot_api(message: str, history: List[Tuple[str,str]]) -> dict:
     try:
         response = requests.post(
             API_URL,
-            json={"text": message},
+            # json={"text": message},
+            json={
+                "message":message,
+                "history":history
+            },
             headers={"Content-Type": "application/json"}
         )
         
         # response_text = response_text.strip()
         # if response_text.startswith("```") and response_text.endswith("```"):
             # response_text = response_text[3:-3].strip()
-            
+        
         return response.text
     except requests.exceptions.RequestException as e:
         print(f"API call failed: {e}")
         return {"response": f"Error: Could not connect to the chatbot API. {str(e)}"}
+        
 
 def process_chat(message: str, history: List[Tuple[str, str]]) -> Tuple[List[Tuple[str, str]], Optional[str]]:
     try:
-        api_response = call_chatbot_api(message)
+        # api_response = call_chatbot_api(message)
+        api_response = call_chatbot_api(message,history)
+        print("RAW RESPONSE: ",api_response)
+    
         response_text = clean_and_parse_json(api_response)
+            
         history.append((message, response_text["response"]))
         image = None
         if "link" in response_text and os.path.isfile(response_text["link"]):
@@ -52,12 +62,12 @@ def process_chat(message: str, history: List[Tuple[str, str]]) -> Tuple[List[Tup
             except Exception as e:
                 print(f"Error loading image: {e}")
                 image = None
-        print('TRY RUNNED')
+        print('PROCESSED MESSAGE SUCCESSFULLY')
         return history, image
     except Exception as e:
         error_message = f"Error processing message: {str(e)}"
         history.append((message, error_message))
-        print('EXCEPT RUNNED')
+        print(error_message)
         return history, None
 
 if __name__ == "__main__":

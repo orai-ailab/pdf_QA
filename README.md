@@ -1,3 +1,4 @@
+![My Image](assets/pipeline.png)
 # Folder structure
 ```
 ORAL_PDF_QA/

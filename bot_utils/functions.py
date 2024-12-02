@@ -1,7 +1,7 @@
 from utils import query_pdfs,get_distinct_field
 
 # calling function
-def query_distinct_value_of_field(field_name):
+def query_distinct_value_of_field_all_report(field_name):
     def eliminate_duplicates(file_list):
         normalized_files = {}
         
@@ -15,6 +15,7 @@ def query_distinct_value_of_field(field_name):
         return list(normalized_files.values())
     
     result = eliminate_duplicates(get_distinct_field(field=field_name,collection_name="PDF_test_6"))
+    print(result)
     return result
 
 def get_group_of_biostratigraphy(group_by="Well_name"):
@@ -39,13 +40,14 @@ def get_information_in_biostratigraphy(keyword="",well_name="15/9-F-1"):
     result = query_pdfs(
         query=keyword,  # No specific query string since we're only using a filter
         where=filter,
-        n_results=20,  # Adjust to ensure you retrieve all relevant documents
-        n_top=5,  # Retrieve up to 100 top results
+        n_results=50,  # Adjust to ensure you retrieve all relevant documents
+        n_top=10,  # Retrieve up to 100 top results
+        STRICT_MODE=True,
         COLLECTION_NAME="PDF_test_6",
     )
     return (result)
 
-def get_group_of_petropysical(group_by="Filename"):
+def get_group_of_petrophysical(group_by="Filename"):
     filter = {"Report_type":"petropysical"}
     result = query_pdfs(
         query="",  # No specific query string since we're only using a filter
@@ -55,19 +57,42 @@ def get_group_of_petropysical(group_by="Filename"):
         COLLECTION_NAME="PDF_test_6",
         group_by=group_by
     )
-    
+    print(result)
     return set(result)
+
+def get_information_in_petrophysical(well_name="",keyword=""):
+    if well_name:
+        filter={"$and": [
+            {"Report_type": 'pertropysical'},
+            {"Well_name": well_name},
+            # {"Filename": "FWR_completion.pdf"},
+            # {"Page_num":"5"}
+        ]}
+    else:
+        filter = {"Report_type":"petropysical"}
+    result = query_pdfs(
+        query=keyword,  # No specific query string since we're only using a filter
+        where=filter,
+        n_results=50,  # Adjust to ensure you retrieve all relevant documents
+        n_top=10,  # Retrieve up to 100 top results
+        COLLECTION_NAME="PDF_test_6",
+    )
+    print(result)
+    return (result)
 
 def summary_of_petrophysical_result(well_name="15/9-F-1"):
     query_result = query_pdfs(
-        query=f"summary {well_name}",
+        query=f"Summary {well_name}",
+        # query=f"TD of 15/9-F-1 was 3632 m MD RKB (Smith Bank Fm.).",
+        
         where={"Report_type": 'petropysical'},
         # where={"$and": [
         #     {"Report_type": 'petropysical'},
-        #     {"Page_num":"4"},
-        #     # {"Page_num":"5"}
+        #     # {"Filename":"PETROPHYSICAL_REPORT_1.PDF"},
+        #     {"Page_num":"4"}
         # ]},
-        COLLECTION_NAME='PDF_test_6',n_results=100,n_top=10)
+        STRICT_MODE=True,
+        COLLECTION_NAME='PDF_test_6',n_results=2000,n_top=5)
     return query_result
 
 def summary_hole_record(well_name="15/9-F-12"):
@@ -76,7 +101,7 @@ def summary_hole_record(well_name="15/9-F-12"):
         query="hole record",
         where={"$and": [
             {"Report_type": 'drilling and measurements for end of well report'},
-            {"Filename": "pdf/DRILLING_REPORT_1.pdf"},
+            {"Filename": "DRILLING_REPORT_1.PDF"},
             # {"Page_num":"5"}
         ]},
         COLLECTION_NAME='PDF_test_6',n_results=30,n_top=5)
@@ -85,24 +110,26 @@ def summary_hole_record(well_name="15/9-F-12"):
 def final_well_report_list_bha(well_name="15/9-F-4"):
     query_result = query_pdfs(
         # query="include hole record and casing record",
-        query="list let me know how many BHA runs",
+        query="BHA NO:",
         # where={
         #     # "Report_type":'final well report',
         #     "Well_name":'15/9-F-4'
         # },
         where={"$and": [
-            {"Report_type": 'final well report, completion FWR'},
+            {"Report_type": 'final well report'},
             {"Well_name": well_name},
+            {"Description":"None"},
             {"Filename": "FWR_completion.pdf"},
             # {"Page_num":"5"}
         ]},
+        STRICT_MODE=True,
         COLLECTION_NAME='PDF_test_6',n_results=50,n_top=10)
     return query_result
 
 def well_report_get_main_result_of_test_of_well(test_no='1',well_name='15/9-19A'):
     query_result = query_pdfs(
         # query="include hole record and casing record",
-        query=f"Main results of Test {test_no} of well name {well_name}",
+        query=f"Main results",
         where={
             # "Report_type":'final well report',
             "Well_name":well_name
@@ -113,7 +140,8 @@ def well_report_get_main_result_of_test_of_well(test_no='1',well_name='15/9-19A'
         #     {"Filename": "FWR_completion.pdf"},
         #     # {"Page_num":"5"}
         # ]},
-        COLLECTION_NAME='PDF_test_6',n_results=100,n_top=10)
+        STRICT_MODE=True,
+        COLLECTION_NAME='PDF_test_6',n_results=100,n_top=5)
     return query_result
 
 def query_overall(query_text=""):
@@ -133,9 +161,9 @@ def get_function_response(function_name,function_args):
     #     function_response = query_overall(
     #         query_text=query_text,
     #     )
-    if function_name == "query_distinct_value_of_field":
+    if function_name == "query_distinct_value_of_field_all_report":
         field_name = function_args["field_name"]
-        function_response = query_distinct_value_of_field(
+        function_response = query_distinct_value_of_field_all_report(
             field_name=field_name
         )
     elif function_name == "get_group_of_biostratigraphy":
@@ -143,9 +171,9 @@ def get_function_response(function_name,function_args):
         function_response = get_group_of_biostratigraphy(
             group_by=group_by
         )
-    elif function_name == "get_group_of_petropysical":
+    elif function_name == "get_group_of_petrophysical":
         group_by = function_args["group_by"]
-        function_response = get_group_of_petropysical(
+        function_response = get_group_of_petrophysical(
             group_by=group_by
         )
     elif function_name == "summary_of_petrophysical_result":
@@ -177,4 +205,11 @@ def get_function_response(function_name,function_args):
             keyword=keyword,
             well_name=well_name
         )
+    elif function_name == "get_information_in_petrophysical":
+        keyword = function_args["keyword"]
+        well_name = function_args["well_name"]
+        function_response = get_information_in_petrophysical(
+            keyword=keyword,
+            well_name=well_name
+        )  
     return function_response 

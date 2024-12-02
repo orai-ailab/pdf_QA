@@ -189,6 +189,7 @@ def query_pdfs(
     n_top=5,
     group_by='',
     chroma_client=None,
+    STRICT_MODE=False,
     COLLECTION_NAME=settings.PDF_COLLECTION_NAME,
     CHROMA_PERSISTENT_DISK=settings.CHROMA_PERSISTENT_DISK,
     CHROMA_ENDPOINT=settings.CHROMA_ENDPOINT,
@@ -208,6 +209,15 @@ def query_pdfs(
         query_results = collection.query(query_embeddings=get_embedding(query),where=where, n_results=n_results)
     else:
         query_results = collection.query(query_embeddings=get_embedding(query),n_results=n_results)
+        
+    if STRICT_MODE:
+        prev_query = query.strip("Represent this sentence for searching relevant passages: \n")
+        print("QUERY: ",prev_query)
+        # if not (str(query) in str(query_results["metadatas"][0][0]["Text"])):
+        #     print('QUERY ARE NOT CONTAINED')
+        #     print(query)
+        #     print(query_results["metadatas"][0][0]["Text"])
+        return format_pdfs([pdf for pdf in query_results["metadatas"][0] if (prev_query in pdf["Text"]) or (prev_query in pdf["Description"])][:n_top])
     logger.bind(logger_name="system").info(query_results)
     if group_by:
         return [pdf[group_by] for pdf in query_results["metadatas"][0]]

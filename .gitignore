@@ -7,7 +7,7 @@ pictures
 tables
 text
 pdf
-logs
+logs/
 FC_test.ipynb
 parsing_test.ipynb
 query_test.ipynb
@@ -15,4 +15,4 @@ data
 PDF_test_1
 parsed
 technique_test.ipynb
-data/data/chroma.sqlite3
+data/

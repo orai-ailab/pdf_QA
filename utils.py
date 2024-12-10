@@ -217,11 +217,11 @@ def query_pdfs(
         #     print('QUERY ARE NOT CONTAINED')
         #     print(query)
         #     print(query_results["metadatas"][0][0]["Text"])
-        return format_pdfs([pdf for pdf in query_results["metadatas"][0] if (prev_query in pdf["Text"]) or (prev_query in pdf["Description"])][:n_top])
+        return format_pdfs([pdf for pdf in query_results["metadatas"][0] if (prev_query.strip().lower() in pdf["Text"].strip().lower()) or (prev_query.strip().lower() in pdf["Description"].strip().lower())][:n_top])
     logger.bind(logger_name="system").info(query_results)
     if group_by:
         return [pdf[group_by] for pdf in query_results["metadatas"][0]]
-    return format_pdfs(query_results["metadatas"][0][:n_top])
+    return format_pdfs(query_results["metadatas"][0][:5])
 
 def list_collections(
     chroma_client=None,

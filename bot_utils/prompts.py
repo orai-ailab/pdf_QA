@@ -1,24 +1,32 @@
 SYSTEM_PROMPT = """
-        You are a specialized PDF information extraction assistant with the following key responsibilities:
+        You are a specialized PDF information extraction assistant. You are connecting with functions that will help you find relevant information to answer user's question. This is the following key responsibilities:
 
         ### Core Objectives
         - Accurately extract and synthesize informatcontaining relevant information
         - Provide clear, concise, and structured responses
         - If user don't ask you about PDF, just behave as normal sentiment chatbot.
-        - Consider carefully to provide facts to user bion from PDF documents in response to user questions.
+        - Consider carefully to provide facts to user based on from PDF documents in response to user questions.
         - Precisely locate and reference specific pages, tables, or images ased on query result. Don't hallucinate the information no in query (eg. provide page number while it's not presented in query)
-
-        ### Response Guidelines: always respond in a strict JSON format with two key fields:
-        ```
-        {
-            "response": "Detailed, informative answer to the user's query",
-            "link": 'string: Direct link to table or picture (if provided in query), if no link this is string with nothing ""'
-        }
-        ```
+        - You can call function to get access to the pdf files in the database, if user ask question about pdf files you should use these functions.
+        - If you provide information to user from data you get from the function response, also provide the pages associated with that information from the function.
+        - Except for question for listing reports or listing wells, you do not need to provide on what page.
+        - If you find a path associated with the table/picture containing the information you are giving to user, serve that path to user as well. JUST ONE PATH TO TABLE/PICTURE IS ALLOWED, HOW HAVE TO FIND THE MOST REASONABLE ONE.
+        - DO NOT PROVIDE CODE OR THE WAY YOU WILL LOCATE THE INFORMATION IN THE DATABASE !!
+        
+        ### Your previous mistaken response
+        - If user asks for specific type of report, then just query the function containing that report only !! Dont query overall.
+        - If user does not ask for specific type of report while all reports you have, you must use the query functions for all reports.
 """
 # pass
 
 # SYSTEM_PROMPT = """
+        # ### Response Guidelines: STRICTLY FOLLOW THIS !! Always respond in a strict JSON format with two key fields:
+        # ```
+        # {
+        #     "response": "Detailed, informative answer to the user's query.",
+        #     "link": 'string: Direct link to table or picture (if provided in query), if no link this is string with nothing ""'
+        # }
+        # ```
 #         You are a specialized PDF information extraction assistant with the following key responsibilities:
 
 #         ### Core Objectives
@@ -68,28 +76,11 @@ SYSTEM_PROMPT = """
 #         - If the query result is set, no need to provide the page referenced.
 # """
 TOOLS = [
-    # {
-    #     "type": "function",
-    #     "function": {
-    #         "name": "query_overall",
-    #         "description": "Function to get query result from chroma database from your query text. No well_name and report_type needed (because you do not know about them).",
-    #         "parameters": {
-    #             "type": "object",
-    #             "properties": {
-    #                 "query_text": {
-    #                     "type": "string",
-    #                     "description": "Your main query to get information. You should pass the entire question here.",
-    #                 },
-    #             },
-    #             "required": ["query_text"],
-    #         },
-    #     }, 
-    # },
     {
         "type": "function",
         "function": {
-            "name": "query_distinct_value_of_field_all_report",
-            "description": "Function to get query every distinct value of a field in the collection. This can be use to get  every filename or report_type or well name you have. ",
+            "name": "get_all_fields_among_files",
+            "description": "Function to get query every distinct value of a field in the collection for all type of reports, for all pdf files you have, this is not specialized for any specific report, it's common. Do not mistaken it when you are required to query for specific kind of report. You can use this function to get all files, all wells, all report type you have...",
             "parameters": {
                 "type": "object",
                 "properties": {
@@ -261,6 +252,23 @@ TOOLS = [
             },
         }, 
     },
+    {
+        "type":"function",
+        "function":{
+            "name":"get_information_among_all_reports",
+            "description":"Functon to query information from all reports (this function is used if you do not know what exactly well name and report the information belongs to).",
+            "parameters":{
+                "type":"object",
+                "properties": {
+                    "keyword":{
+                        "type":"string",
+                        "description":"keyword or information that user want to know about"
+                    },
+                },
+                "required":[],
+            }
+        }
+    }
 ]
 
 

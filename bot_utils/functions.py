@@ -15,8 +15,12 @@ def query_distinct_value_of_field_all_report(field_name):
         return list(normalized_files.values())
     
     result = eliminate_duplicates(get_distinct_field(field=field_name,collection_name="PDF_test_6"))
-    print(result)
-    return result
+    # print(result)
+    return {
+        "objects":result,
+        "count":len(result)
+    }
+    # return result
 
 def get_group_of_biostratigraphy(group_by="Well_name"):
     filter = {"Report_type":"Biostratigraphy"}
@@ -61,20 +65,29 @@ def get_group_of_petrophysical(group_by="Filename"):
     return set(result)
 
 def get_information_in_petrophysical(well_name="",keyword=""):
-    if well_name:
+    if well_name in ["15/9-F-15","15/9-F-10","15/9-F-1\n15/9-F-1 A\n15/9-F-1 B"]:
         filter={"$and": [
-            {"Report_type": 'pertropysical'},
+            {"Report_type": 'petropysical'},
             {"Well_name": well_name},
+            # {"Filename": "FWR_completion.pdf"},
+            # {"Page_num":"5"}
+        ]}
+    elif well_name:
+        filter={"$and": [
+            {"Report_type": 'petropysical'},
+            {"Well_name": "15/9-F-1\n15/9-F-1 A\n15/9-F-1 B"},
             # {"Filename": "FWR_completion.pdf"},
             # {"Page_num":"5"}
         ]}
     else:
         filter = {"Report_type":"petropysical"}
     result = query_pdfs(
-        query=keyword,  # No specific query string since we're only using a filter
+        
+        query=keyword,  
         where=filter,
-        n_results=50,  # Adjust to ensure you retrieve all relevant documents
-        n_top=10,  # Retrieve up to 100 top results
+        n_results=50,  
+        n_top=10,  
+        STRICT_MODE=True,
         COLLECTION_NAME="PDF_test_6",
     )
     print(result)
@@ -144,16 +157,15 @@ def well_report_get_main_result_of_test_of_well(test_no='1',well_name='15/9-19A'
         COLLECTION_NAME='PDF_test_6',n_results=100,n_top=5)
     return query_result
 
-def query_overall(query_text=""):
-    result = query_pdfs(
-        query=query_text,
-        COLLECTION_NAME='PDF_test_6',
+def get_information_among_all_reports(keyword=""):
+    query_result = query_pdfs(
+        query=keyword,
         n_results=100,
         n_top=10,
+        STRICT_MODE=True,
+        COLLECTION_NAME='PDF_test_6'
     )
-    # print('QUERY RESULT: ',query_result)
-    # print('WHERE: ',{"$and": [{"report_type": report_type},{"well_name": well_name}]})
-    return result
+    return query_result
 
 def get_function_response(function_name,function_args):
     # if function_name == "query_overall":
@@ -161,7 +173,7 @@ def get_function_response(function_name,function_args):
     #     function_response = query_overall(
     #         query_text=query_text,
     #     )
-    if function_name == "query_distinct_value_of_field_all_report":
+    if function_name == "get_all_fields_among_files":
         field_name = function_args["field_name"]
         function_response = query_distinct_value_of_field_all_report(
             field_name=field_name
@@ -176,7 +188,7 @@ def get_function_response(function_name,function_args):
         function_response = get_group_of_petrophysical(
             group_by=group_by
         )
-    elif function_name == "summary_of_petrophysical_result":
+    elif "summary_of_petrophysical_result" in function_name:
         well_name = function_args["well_name"]
         function_response = summary_of_petrophysical_result(
             well_name=well_name
@@ -212,4 +224,9 @@ def get_function_response(function_name,function_args):
             keyword=keyword,
             well_name=well_name
         )  
+    elif function_name == "get_information_among_all_reports":
+        keyword = function_args["keyword"]
+        function_response = get_information_among_all_reports(
+            keyword=keyword 
+        )
     return function_response 
